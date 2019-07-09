@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Acceleo Mdcm2info Module IDE Plug-in
+Bundle-SymbolicName: mdcm2info.ui;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: mdcm2info.ui.Activator
+Bundle-Vendor: Eclipse Modeling Project
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources, 
+ mdcm2info,
+ org.eclipse.emf.ecore,
+ org.eclipse.emf.ecore.xmi,
+ org.eclipse.ocl,
+ org.eclipse.ocl.ecore,
+ org.eclipse.acceleo.model,
+ org.eclipse.acceleo.engine
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-ActivationPolicy: lazy
+Eclipse-LazyStart: true

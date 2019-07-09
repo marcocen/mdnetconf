@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Configurations="http://mdcms/schemas/Configurations/_w4xMILKwEei5peBJaUJcmg/6" xmlns:Logical="http://mdcms/schemas/Logical/_w4m0ELKwEei5peBJaUJcmg/18" xmlns:Physical="http://mdcms/schemas/Physical/_w4rskLKwEei5peBJaUJcmg/14" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://mdcms/schemas/Configurations/_w4xMILKwEei5peBJaUJcmg/6 mdcms.profile.uml#_w4yaQLKwEei5peBJaUJcmg http://mdcms/schemas/Logical/_w4m0ELKwEei5peBJaUJcmg/18 mdcms.profile.uml#_w4oCMLKwEei5peBJaUJcmg http://mdcms/schemas/Physical/_w4rskLKwEei5peBJaUJcmg/14 mdcms.profile.uml#_w4sToLKwEei5peBJaUJcmg">
+  <uml:Model xmi:id="_MzXIYLKpEeiqw8sNLa9knQ" name="contoso-serverroom">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_M6GpkLKpEeiqw8sNLa9knQ">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_5Hfd4LKsEei5peBJaUJcmg" name="webControlHorario"/>
+    <packagedElement xmi:type="uml:Device" xmi:id="_BaQlULKtEei5peBJaUJcmg" name="WebServer">
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_E8QscLKtEei5peBJaUJcmg" name="Apache">
+        <deployment xmi:type="uml:Deployment" xmi:id="_MpmLkLKtEei5peBJaUJcmg" client="_E8QscLKtEei5peBJaUJcmg" supplier="_5Hfd4LKsEei5peBJaUJcmg" deployedArtifact="_5Hfd4LKsEei5peBJaUJcmg"/>
+        <deployment xmi:type="uml:Deployment" xmi:id="__tkkkLKtEei5peBJaUJcmg" client="_E8QscLKtEei5peBJaUJcmg" supplier="_-Y0YILKtEei5peBJaUJcmg" deployedArtifact="_-Y0YILKtEei5peBJaUJcmg"/>
+      </nestedNode>
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_HqfNQLKtEei5peBJaUJcmg" name="MySQL">
+        <deployment xmi:type="uml:Deployment" xmi:id="_B-AWILKuEei5peBJaUJcmg" client="_HqfNQLKtEei5peBJaUJcmg" supplier="_AMTvALKuEei5peBJaUJcmg" deployedArtifact="_AMTvALKuEei5peBJaUJcmg"/>
+        <deployment xmi:type="uml:Deployment" xmi:id="_DhaCkLKuEei5peBJaUJcmg" client="_HqfNQLKtEei5peBJaUJcmg" supplier="_CkZnwLKuEei5peBJaUJcmg" deployedArtifact="_CkZnwLKuEei5peBJaUJcmg"/>
+        <deployment xmi:type="uml:Deployment" xmi:id="_GzAWMLKuEei5peBJaUJcmg" client="_HqfNQLKtEei5peBJaUJcmg" supplier="_FdU8sLKuEei5peBJaUJcmg" deployedArtifact="_FdU8sLKuEei5peBJaUJcmg"/>
+      </nestedNode>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_-Y0YILKtEei5peBJaUJcmg" name="webIntranet"/>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_AMTvALKuEei5peBJaUJcmg" name="dbControlHorario"/>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_CkZnwLKuEei5peBJaUJcmg" name="dbIntranet-production"/>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_FdU8sLKuEei5peBJaUJcmg" name="dbIntranet-testing"/>
+    <packagedElement xmi:type="uml:Device" xmi:id="_SJOnkLKuEei5peBJaUJcmg" name="BackupServer">
+      <deployment xmi:type="uml:Deployment" xmi:id="_ZUn3QLKuEei5peBJaUJcmg" client="_SJOnkLKuEei5peBJaUJcmg" supplier="_UJJ38LKuEei5peBJaUJcmg" deployedArtifact="_UJJ38LKuEei5peBJaUJcmg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_UJJ38LKuEei5peBJaUJcmg" name="amandaConfig"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_geK0MLKrEei5peBJaUJcmg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eZFvULKxEei5peBJaUJcmg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eZFvUbKxEei5peBJaUJcmg" key="Version" value="0.0.37"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eZFvUrKxEei5peBJaUJcmg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eZFvU7KxEei5peBJaUJcmg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eZFvVLKxEei5peBJaUJcmg" key="Date" value="2018-09-07"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eZFvVbKxEei5peBJaUJcmg" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_geN3gLKrEei5peBJaUJcmg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="mdcms.profile.uml#_w4jwwbKwEei5peBJaUJcmg"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="mdcms.profile.uml#_nGsGwLHvEeiNMIP2HF6eNg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_geSwALKrEei5peBJaUJcmg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eZGWYLKxEei5peBJaUJcmg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eZGWYbKxEei5peBJaUJcmg" key="Version" value="0.0.37"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eZGWYrKxEei5peBJaUJcmg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eZGWY7KxEei5peBJaUJcmg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eZGWZLKxEei5peBJaUJcmg" key="Date" value="2018-09-07"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eZGWZbKxEei5peBJaUJcmg" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_geTXELKrEei5peBJaUJcmg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="mdcms.profile.uml#_w4oCMLKwEei5peBJaUJcmg"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="mdcms.profile.uml#_TxtPQLIUEeiNMIP2HF6eNg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_geVzULKrEei5peBJaUJcmg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eZG9cLKxEei5peBJaUJcmg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eZG9cbKxEei5peBJaUJcmg" key="Version" value="0.0.37"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eZG9crKxEei5peBJaUJcmg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eZG9c7KxEei5peBJaUJcmg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eZG9dLKxEei5peBJaUJcmg" key="Date" value="2018-09-07"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eZG9dbKxEei5peBJaUJcmg" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_geWaYLKrEei5peBJaUJcmg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="mdcms.profile.uml#_w4sToLKwEei5peBJaUJcmg"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="mdcms.profile.uml#_k5li8LIkEeiRorVD3xHyMg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_geXogLKrEei5peBJaUJcmg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eZHkgLKxEei5peBJaUJcmg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eZHkgbKxEei5peBJaUJcmg" key="Version" value="0.0.37"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eZHkgrKxEei5peBJaUJcmg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eZHkg7KxEei5peBJaUJcmg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eZHkhLKxEei5peBJaUJcmg" key="Date" value="2018-09-07"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eZHkhbKxEei5peBJaUJcmg" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_geXogbKrEei5peBJaUJcmg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="mdcms.profile.uml#_w4yaQLKwEei5peBJaUJcmg"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="mdcms.profile.uml#_8EMeALJIEeiARJ50Y2vhkA"/>
+    </profileApplication>
+  </uml:Model>
+  <Configurations:Website xmi:id="_kWsWMLKxEei5peBJaUJcmg" base_Artifact="_5Hfd4LKsEei5peBJaUJcmg"/>
+  <Logical:Apache xmi:id="_mktF4LKxEei5peBJaUJcmg" base_ExecutionEnvironment="_E8QscLKtEei5peBJaUJcmg"/>
+  <Configurations:Website xmi:id="_rZcnQLKxEei5peBJaUJcmg" base_Artifact="_-Y0YILKtEei5peBJaUJcmg"/>
+  <Configurations:Database xmi:id="_sIdpYLKxEei5peBJaUJcmg" base_Artifact="_AMTvALKuEei5peBJaUJcmg"/>
+  <Logical:MySQL xmi:id="_v-9Z0LKxEei5peBJaUJcmg" base_ExecutionEnvironment="_HqfNQLKtEei5peBJaUJcmg"/>
+  <Configurations:Database xmi:id="_wxVR8LKxEei5peBJaUJcmg" base_Artifact="_CkZnwLKuEei5peBJaUJcmg"/>
+  <Configurations:Database xmi:id="_x0SjwLKxEei5peBJaUJcmg" base_Artifact="_FdU8sLKuEei5peBJaUJcmg"/>
+  <Physical:Server xmi:id="_zW_soLKxEei5peBJaUJcmg" base_Device="_SJOnkLKuEei5peBJaUJcmg"/>
+  <Configurations:File xmi:id="_0UvuULKxEei5peBJaUJcmg" base_Artifact="_UJJ38LKuEei5peBJaUJcmg"/>
+</xmi:XMI>

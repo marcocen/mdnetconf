@@ -1,0 +1,129 @@
+[comment encoding = UTF-8 /]
+[module generate('http://www.fing.edu.uy/mdcms', 'http://www.eclipse.org/uml2/5.0.0/UML', 'http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard')]
+
+
+[query public pcname(p : mdcms::Physical) : String = p.base_Device.name /]
+[query public pcname(l : mdcms::Logical) : String = l.base_ExecutionEnvironment.owner.oclAsType(uml::Device).name /]
+
+
+[template public generateElement(pc : mdcms::PC)]
+[comment @main/]
+[file ('Information/'+pc.base_Device.name+'/'+pc.base_Device.name+'.txt', false, 'UTF-8')]
+[writeInfo('Processor', pc.Processor) +
+writeInfo('Architecture', pc.Architecture) +
+writeInfo('Disk Type', pc.DiskType) +
+writeInfo('Disk Space', pc.DiskSpace) +
+writeInfo('RAM', pc.Ram) +
+writeInfo('Motherboard', pc.Motherboard) +
+writeInfo('Graphic Card', pc.GraphicCard)/]
+[/file]
+[/template]
+
+
+[template public generateElement(server : mdcms::Server)]
+[comment @main/]
+[file ('Information/'+server.base_Device.name+'/'+server.base_Device.name+'.txt', false, 'UTF-8')]
+[writeInfo('Processor', server.Processor) +
+writeInfo('Architecture', server.Architecture) +
+writeInfo('Disk Type', server.DiskType) +
+writeInfo('Disk Space', server.DiskSpace) +
+writeInfo('RAM', server.Ram) +
+writeInfo('Rack', server.Rack)/]
+[/file]
+[/template]
+
+
+[template public generateElement(os : mdcms::OperatingSystem)]
+[comment @main /]
+[file ('Information/'+pcname(os)+'/'+os.base_ExecutionEnvironment.name+'.txt', false, 'UTF-8')]
+[writeInfo('Distribution', os.Distribution) +
+writeInfo('Version', os.Version) +
+writeInfo('Architecture', os.Architecture)/]
+[/file]
+[/template]
+
+
+[template public generateElement(free : mdcms::FreeForm)]
+[comment @main /]
+[file ('Configuration/'+free.base_Artifact.name+'.txt', false, 'UTF-8')]
+[free.base_Artifact.name/]:
+[if (free.Description <> null)]
+[free.Description/]
+[/if]
+[/file]
+[/template]
+
+
+[template public generateElement(switch : mdcms::Switch)]
+[comment @main /]
+[file ('Information/'+switch.base_Device.name+'/'+switch.base_Device.name+'.txt', false, 'UTF-8')]
+[writeInfo('IP', switch.IP) +
+writeInfo('Location', switch.Location) +
+writeInfo('MAC', switch.MAC) +
+writeInfo('Manufacturer', switch.Manufacturer) +
+writeInfo('Model', switch.Model)/][if (switch.Ports <> null)]
+Ports: [switch.Ports/]
+[/if]
+[writeInfo('Speed', switch.Speed) +
+writeInfo('Throughput', switch.Throughput) +
+writeInfo('Power (W)', switch.PowerW)/]
+[/file]
+[/template]
+
+
+[template public generateElement(router : mdcms::Router)]
+[comment @main /]
+[file ('Information/'+router.base_Device.name+'/'+router.base_Device.name+'.txt', false, 'UTF-8')]
+[writeInfo('IP', router.IP) +
+writeInfo('Location', router.Location) +
+writeInfo('MAC', router.MAC) +
+writeInfo('Manufacturer', router.Manufacturer) +
+writeInfo('Model', router.Model) +
+writeInfo('SO', router.SO) +
+writeInfo('Throughput', router.Throughput) +
+writeInfo('Form Factor', router.FormFactor)/][if (router.Ports <> null)]
+Ports: [router.Ports/]
+[/if]
+[if (router.NetworkInterfaceSlots <> null)]
+Network Interface Slots: [router.NetworkInterfaceSlots/]
+[/if]
+[if (router.ServiceModuleSlots <> null)]
+Service Module Slots: [router.ServiceModuleSlots/]
+[/if]
+[/file]
+[/template]
+
+
+[template public generateElement(peripheral : mdcms::Peripheral)]
+[comment @main /]
+[file ('Information/'+peripheral.base_Device.name+'/'+peripheral.base_Device.name+'.txt', false, 'UTF-8')]
+[writeInfo('Type', peripheral.Type) +
+writeInfo('IP', peripheral.IP) +
+writeInfo('Location', peripheral.Location) +
+writeInfo('MAC', peripheral.MAC) +
+writeInfo('Manufacturer', peripheral.Manufacturer) +
+writeInfo('Model', peripheral.Model)
+/]
+[/file]
+[/template]
+
+
+[template public generateElement(firmware : mdcms::Firmware)]
+[comment @main /]
+[file ('Information/'+pcname(firmware)+'/'+firmware.base_ExecutionEnvironment.name+'.txt', false, 'UTF-8')]
+[writeInfo('Type', firmware.Type) +
+writeInfo('Version', firmware.Version)/]
+[/file]
+[/template]
+
+[template public writeAttribute(s1 : String, s2: String)]
+[if (s2 <> null)]
+[s1/] => '[s2/]',
+[/if]
+[/template]
+
+[template public writeInfo(s1 : String, s2: String)]
+[if (s2 <> null)]
+[s1/]: [s2/]
+[/if]
+[/template]

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Mz3esLKpEeiqw8sNLa9knQ" type="PapyrusUMLDeploymentDiagram" name="Deployment Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_5HgsALKsEei5peBJaUJcmg" type="Artifact_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_5HgsArKsEei5peBJaUJcmg" type="Artifact_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_5HgsA7KsEei5peBJaUJcmg" type="Artifact_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5HgsBLKsEei5peBJaUJcmg" x="25"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_5HgsBbKsEei5peBJaUJcmg" type="Artifact_NestedArtifactCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_5HgsBrKsEei5peBJaUJcmg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5HgsB7KsEei5peBJaUJcmg"/>
+    </children>
+    <element xmi:type="uml:Artifact" href="contoso-serverroom.uml#_5Hfd4LKsEei5peBJaUJcmg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5HgsAbKsEei5peBJaUJcmg" x="40" y="40"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_BaSagLKtEei5peBJaUJcmg" type="Device_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_BaSagrKtEei5peBJaUJcmg" type="Device_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_BaSag7KtEei5peBJaUJcmg" type="Device_NestedNodeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_E8UW0LKtEei5peBJaUJcmg" type="ExecutionEnvironment_Shape_CCN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_E8U94LKtEei5peBJaUJcmg" type="ExecutionEnvironment_NameLabel_CCN"/>
+        <element xmi:type="uml:ExecutionEnvironment" href="contoso-serverroom.uml#_E8QscLKtEei5peBJaUJcmg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E8UW0bKtEei5peBJaUJcmg" x="90" y="25"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Hqks0LKtEei5peBJaUJcmg" type="ExecutionEnvironment_Shape_CCN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_HqlT4LKtEei5peBJaUJcmg" type="ExecutionEnvironment_NameLabel_CCN"/>
+        <element xmi:type="uml:ExecutionEnvironment" href="contoso-serverroom.uml#_HqfNQLKtEei5peBJaUJcmg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hqks0bKtEei5peBJaUJcmg" x="88" y="199"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_mk9klrKxEei5peBJaUJcmg" type="StereotypeComment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_mk9kl7KxEei5peBJaUJcmg"/>
+        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_mk9kmbKxEei5peBJaUJcmg" name="BASE_ELEMENT">
+          <eObjectValue xmi:type="uml:ExecutionEnvironment" href="contoso-serverroom.uml#_E8QscLKtEei5peBJaUJcmg"/>
+        </styles>
+        <element xsi:nil="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mk9kmLKxEei5peBJaUJcmg" x="290" y="25"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_v_PGoLKxEei5peBJaUJcmg" type="StereotypeComment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_v_PGobKxEei5peBJaUJcmg"/>
+        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_v_PGo7KxEei5peBJaUJcmg" name="BASE_ELEMENT">
+          <eObjectValue xmi:type="uml:ExecutionEnvironment" href="contoso-serverroom.uml#_HqfNQLKtEei5peBJaUJcmg"/>
+        </styles>
+        <element xsi:nil="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v_PGorKxEei5peBJaUJcmg" x="288" y="199"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_BaSahLKtEei5peBJaUJcmg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BaSahbKtEei5peBJaUJcmg"/>
+    </children>
+    <element xmi:type="uml:Device" href="contoso-serverroom.uml#_BaQlULKtEei5peBJaUJcmg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BaSagbKtEei5peBJaUJcmg" x="240" y="40" width="327" height="436"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_-Y2NULKtEei5peBJaUJcmg" type="Artifact_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_-Y2NUrKtEei5peBJaUJcmg" type="Artifact_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_-Y2NU7KtEei5peBJaUJcmg" type="Artifact_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-Y2NVLKtEei5peBJaUJcmg" x="25"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_-Y20YLKtEei5peBJaUJcmg" type="Artifact_NestedArtifactCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_-Y20YbKtEei5peBJaUJcmg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-Y20YrKtEei5peBJaUJcmg"/>
+    </children>
+    <element xmi:type="uml:Artifact" href="contoso-serverroom.uml#_-Y0YILKtEei5peBJaUJcmg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-Y2NUbKtEei5peBJaUJcmg" x="620" y="40"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_AMVkMLKuEei5peBJaUJcmg" type="Artifact_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_AMWLQLKuEei5peBJaUJcmg" type="Artifact_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_AMWLQbKuEei5peBJaUJcmg" type="Artifact_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_AMWLQrKuEei5peBJaUJcmg" x="25"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_AMWLQ7KuEei5peBJaUJcmg" type="Artifact_NestedArtifactCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_AMWLRLKuEei5peBJaUJcmg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AMWLRbKuEei5peBJaUJcmg"/>
+    </children>
+    <element xmi:type="uml:Artifact" href="contoso-serverroom.uml#_AMTvALKuEei5peBJaUJcmg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AMVkMbKuEei5peBJaUJcmg" x="840" y="40"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Cka14LKuEei5peBJaUJcmg" type="Artifact_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Cka14rKuEei5peBJaUJcmg" type="Artifact_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Cka147KuEei5peBJaUJcmg" type="Artifact_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Cka15LKuEei5peBJaUJcmg" x="25"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Cka15bKuEei5peBJaUJcmg" type="Artifact_NestedArtifactCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Cka15rKuEei5peBJaUJcmg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Cka157KuEei5peBJaUJcmg"/>
+    </children>
+    <element xmi:type="uml:Artifact" href="contoso-serverroom.uml#_CkZnwLKuEei5peBJaUJcmg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Cka14bKuEei5peBJaUJcmg" x="1260" y="40"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_FdWx4LKuEei5peBJaUJcmg" type="Artifact_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_FdXY8LKuEei5peBJaUJcmg" type="Artifact_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_FdXY8bKuEei5peBJaUJcmg" type="Artifact_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_FdXY8rKuEei5peBJaUJcmg" x="25"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_FdXY87KuEei5peBJaUJcmg" type="Artifact_NestedArtifactCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_FdXY9LKuEei5peBJaUJcmg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FdXY9bKuEei5peBJaUJcmg"/>
+    </children>
+    <element xmi:type="uml:Artifact" href="contoso-serverroom.uml#_FdU8sLKuEei5peBJaUJcmg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FdWx4bKuEei5peBJaUJcmg" x="1460" y="40"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_SJP1sLKuEei5peBJaUJcmg" type="Device_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_SJQcwLKuEei5peBJaUJcmg" type="Device_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_SJQcwbKuEei5peBJaUJcmg" type="Device_NestedNodeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_SJQcwrKuEei5peBJaUJcmg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SJQcw7KuEei5peBJaUJcmg"/>
+    </children>
+    <element xmi:type="uml:Device" href="contoso-serverroom.uml#_SJOnkLKuEei5peBJaUJcmg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SJP1sbKuEei5peBJaUJcmg" x="1040" y="520" width="181" height="141"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_UJLGELKuEei5peBJaUJcmg" type="Artifact_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_UJLGErKuEei5peBJaUJcmg" type="Artifact_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_UJLGE7KuEei5peBJaUJcmg" type="Artifact_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_UJLGFLKuEei5peBJaUJcmg" x="25"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_UJLGFbKuEei5peBJaUJcmg" type="Artifact_NestedArtifactCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_UJLGFrKuEei5peBJaUJcmg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UJLGF7KuEei5peBJaUJcmg"/>
+    </children>
+    <element xmi:type="uml:Artifact" href="contoso-serverroom.uml#_UJJ38LKuEei5peBJaUJcmg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UJLGEbKuEei5peBJaUJcmg" x="1040" y="40"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_kW7mwLKxEei5peBJaUJcmg" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_kW7mwbKxEei5peBJaUJcmg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_kW7mw7KxEei5peBJaUJcmg" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Artifact" href="contoso-serverroom.uml#_5Hfd4LKsEei5peBJaUJcmg"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kW7mwrKxEei5peBJaUJcmg" x="640" y="60"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_rZr33LKxEei5peBJaUJcmg" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_rZr33bKxEei5peBJaUJcmg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_rZse4LKxEei5peBJaUJcmg" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Artifact" href="contoso-serverroom.uml#_-Y0YILKtEei5peBJaUJcmg"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rZr33rKxEei5peBJaUJcmg" x="640" y="160"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_sIuIFrKxEei5peBJaUJcmg" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_sIuIF7KxEei5peBJaUJcmg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_sIuIGbKxEei5peBJaUJcmg" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Artifact" href="contoso-serverroom.uml#_AMTvALKuEei5peBJaUJcmg"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sIuIGLKxEei5peBJaUJcmg" x="640" y="280"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wxm-yLKxEei5peBJaUJcmg" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_wxm-ybKxEei5peBJaUJcmg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_wxm-y7KxEei5peBJaUJcmg" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Artifact" href="contoso-serverroom.uml#_CkZnwLKuEei5peBJaUJcmg"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wxm-yrKxEei5peBJaUJcmg" x="640" y="380"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_x0oiBLKxEei5peBJaUJcmg" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_x0oiBbKxEei5peBJaUJcmg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_x0oiB7KxEei5peBJaUJcmg" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Artifact" href="contoso-serverroom.uml#_FdU8sLKuEei5peBJaUJcmg"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x0oiBrKxEei5peBJaUJcmg" x="640" y="480"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_zXQyYrKxEei5peBJaUJcmg" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_zXQyY7KxEei5peBJaUJcmg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_zXQyZbKxEei5peBJaUJcmg" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Device" href="contoso-serverroom.uml#_SJOnkLKuEei5peBJaUJcmg"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zXQyZLKxEei5peBJaUJcmg" x="820" y="40"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0VCpRLKxEei5peBJaUJcmg" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_0VCpRbKxEei5peBJaUJcmg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_0VCpR7KxEei5peBJaUJcmg" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Artifact" href="contoso-serverroom.uml#_UJJ38LKuEei5peBJaUJcmg"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0VCpRrKxEei5peBJaUJcmg" x="840" y="220"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_Mz3esbKpEeiqw8sNLa9knQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_Mz3esrKpEeiqw8sNLa9knQ"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_Mz3es7KpEeiqw8sNLa9knQ" diagramKindId="org.eclipse.papyrus.uml.diagram.deployment">
+    <owner xmi:type="uml:Model" href="contoso-serverroom.uml#_MzXIYLKpEeiqw8sNLa9knQ"/>
+  </styles>
+  <element xmi:type="uml:Model" href="contoso-serverroom.uml#_MzXIYLKpEeiqw8sNLa9knQ"/>
+  <edges xmi:type="notation:Connector" xmi:id="_Mps5QLKtEei5peBJaUJcmg" type="Deployment_Edge" source="_5HgsALKsEei5peBJaUJcmg" target="_E8UW0LKtEei5peBJaUJcmg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PAsMgLKyEei5peBJaUJcmg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PAszkLKyEei5peBJaUJcmg" key="routing" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_MptgULKtEei5peBJaUJcmg" type="Deployment_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_2msi0LKxEei5peBJaUJcmg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MptgUbKtEei5peBJaUJcmg" x="-1" y="58"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_MptgUrKtEei5peBJaUJcmg" type="Deployment_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_2msi0bKxEei5peBJaUJcmg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MptgU7KtEei5peBJaUJcmg" x="-2" y="16"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Mps5QbKtEei5peBJaUJcmg"/>
+    <element xmi:type="uml:Deployment" href="contoso-serverroom.uml#_MpmLkLKtEei5peBJaUJcmg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Mps5QrKtEei5peBJaUJcmg"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Mp9_ALKtEei5peBJaUJcmg" id="(0.4666666666666667,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Mp9_AbKtEei5peBJaUJcmg" id="(0.43333333333333335,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="__tu8oLKtEei5peBJaUJcmg" type="Deployment_Edge" source="_-Y2NULKtEei5peBJaUJcmg" target="_E8UW0LKtEei5peBJaUJcmg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PAuBsLKyEei5peBJaUJcmg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PAuBsbKyEei5peBJaUJcmg" key="routing" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="__tvjsLKtEei5peBJaUJcmg" type="Deployment_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_PDwEYLKuEei5peBJaUJcmg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__tvjsbKtEei5peBJaUJcmg" x="-1" y="58"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="__tvjsrKtEei5peBJaUJcmg" type="Deployment_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_PD_U8LKuEei5peBJaUJcmg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__tvjs7KtEei5peBJaUJcmg" y="-10"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="__tu8obKtEei5peBJaUJcmg"/>
+    <element xmi:type="uml:Deployment" href="contoso-serverroom.uml#__tkkkLKtEei5peBJaUJcmg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__tu8orKtEei5peBJaUJcmg"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__uHXILKtEei5peBJaUJcmg" id="(0.35333333333333333,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__uHXIbKtEei5peBJaUJcmg" id="(0.43333333333333335,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_B-KuMLKuEei5peBJaUJcmg" type="Deployment_Edge" source="_AMVkMLKuEei5peBJaUJcmg" target="_Hqks0LKtEei5peBJaUJcmg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PAvP0LKyEei5peBJaUJcmg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PAvP0bKyEei5peBJaUJcmg" key="routing" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_B-KuM7KuEei5peBJaUJcmg" type="Deployment_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_N9oJ0LKuEei5peBJaUJcmg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_B-LVQLKuEei5peBJaUJcmg" x="-1" y="58"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_B-LVQbKuEei5peBJaUJcmg" type="Deployment_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_N92zULKuEei5peBJaUJcmg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_B-LVQrKuEei5peBJaUJcmg" x="-11" y="18"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_B-KuMbKuEei5peBJaUJcmg"/>
+    <element xmi:type="uml:Deployment" href="contoso-serverroom.uml#_B-AWILKuEei5peBJaUJcmg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_B-KuMrKuEei5peBJaUJcmg"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_B-jvwLKuEei5peBJaUJcmg" id="(0.2866666666666667,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_B-jvwbKuEei5peBJaUJcmg" id="(0.44666666666666666,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_DhlowLKuEei5peBJaUJcmg" type="Deployment_Edge" source="_Cka14LKuEei5peBJaUJcmg" target="_Hqks0LKtEei5peBJaUJcmg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PAwd8LKyEei5peBJaUJcmg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PAwd8bKyEei5peBJaUJcmg" key="routing" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Dhlow7KuEei5peBJaUJcmg" type="Deployment_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_E5Ws8LKuEei5peBJaUJcmg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_DhloxLKuEei5peBJaUJcmg" x="1" y="58"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_DhloxbKuEei5peBJaUJcmg" type="Deployment_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_E5iTILKuEei5peBJaUJcmg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_DhloxrKuEei5peBJaUJcmg" x="-43" y="22"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_DhlowbKuEei5peBJaUJcmg"/>
+    <element xmi:type="uml:Deployment" href="contoso-serverroom.uml#_DhaCkLKuEei5peBJaUJcmg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DhlowrKuEei5peBJaUJcmg"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DiAfgLKuEei5peBJaUJcmg" id="(0.02,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DiBGkLKuEei5peBJaUJcmg" id="(0.44666666666666666,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_GzUfQLKuEei5peBJaUJcmg" type="Deployment_Edge" source="_FdWx4LKuEei5peBJaUJcmg" target="_Hqks0LKtEei5peBJaUJcmg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PAxFALKyEei5peBJaUJcmg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PAxFAbKyEei5peBJaUJcmg" key="routing" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_GzVGULKuEei5peBJaUJcmg" type="Deployment_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_OoMJwLKuEei5peBJaUJcmg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_GzVGUbKuEei5peBJaUJcmg" x="-1" y="58"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_GzVGUrKuEei5peBJaUJcmg" type="Deployment_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_OofEsLKuEei5peBJaUJcmg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_GzVGU7KuEei5peBJaUJcmg" x="3" y="5"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_GzUfQbKuEei5peBJaUJcmg"/>
+    <element xmi:type="uml:Deployment" href="contoso-serverroom.uml#_GzAWMLKuEei5peBJaUJcmg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GzUfQrKuEei5peBJaUJcmg"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_G0BC0LKuEei5peBJaUJcmg" id="(0.35333333333333333,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_G0Bp4LKuEei5peBJaUJcmg" id="(0.44666666666666666,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ZU3H0LKuEei5peBJaUJcmg" type="Deployment_Edge" source="_UJLGELKuEei5peBJaUJcmg" target="_SJP1sLKuEei5peBJaUJcmg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PAyTILKyEei5peBJaUJcmg" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PAyTIbKyEei5peBJaUJcmg" key="routing" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZU3u4LKuEei5peBJaUJcmg" type="Deployment_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_apNEkLKuEei5peBJaUJcmg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZU3u4bKuEei5peBJaUJcmg" x="-1" y="58"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZU3u4rKuEei5peBJaUJcmg" type="Deployment_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_apfYcLKuEei5peBJaUJcmg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZU3u47KuEei5peBJaUJcmg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ZU3H0bKuEei5peBJaUJcmg"/>
+    <element xmi:type="uml:Deployment" href="contoso-serverroom.uml#_ZUn3QLKuEei5peBJaUJcmg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZU3H0rKuEei5peBJaUJcmg" points="[1122, 105, -643984, -643984]$[1122, 526, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZVgBALKuEei5peBJaUJcmg" id="(0.4866666666666667,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZVgBAbKuEei5peBJaUJcmg" id="(0.4419889502762431,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_kW7mxLKxEei5peBJaUJcmg" type="StereotypeCommentLink" source="_5HgsALKsEei5peBJaUJcmg" target="_kW7mwLKxEei5peBJaUJcmg">
+    <styles xmi:type="notation:FontStyle" xmi:id="_kW7mxbKxEei5peBJaUJcmg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_kW7mybKxEei5peBJaUJcmg" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Artifact" href="contoso-serverroom.uml#_5Hfd4LKsEei5peBJaUJcmg"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kW7mxrKxEei5peBJaUJcmg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kW7mx7KxEei5peBJaUJcmg"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kW7myLKxEei5peBJaUJcmg"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_mk-LoLKxEei5peBJaUJcmg" type="StereotypeCommentLink" source="_E8UW0LKtEei5peBJaUJcmg" target="_mk9klrKxEei5peBJaUJcmg">
+    <styles xmi:type="notation:FontStyle" xmi:id="_mk-LobKxEei5peBJaUJcmg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_mk-LpbKxEei5peBJaUJcmg" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:ExecutionEnvironment" href="contoso-serverroom.uml#_E8QscLKtEei5peBJaUJcmg"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mk-LorKxEei5peBJaUJcmg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mk-Lo7KxEei5peBJaUJcmg"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mk-LpLKxEei5peBJaUJcmg"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_rZse4bKxEei5peBJaUJcmg" type="StereotypeCommentLink" source="_-Y2NULKtEei5peBJaUJcmg" target="_rZr33LKxEei5peBJaUJcmg">
+    <styles xmi:type="notation:FontStyle" xmi:id="_rZse4rKxEei5peBJaUJcmg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_rZse5rKxEei5peBJaUJcmg" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Artifact" href="contoso-serverroom.uml#_-Y0YILKtEei5peBJaUJcmg"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rZse47KxEei5peBJaUJcmg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rZse5LKxEei5peBJaUJcmg"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rZse5bKxEei5peBJaUJcmg"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sIuIGrKxEei5peBJaUJcmg" type="StereotypeCommentLink" source="_AMVkMLKuEei5peBJaUJcmg" target="_sIuIFrKxEei5peBJaUJcmg">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sIuIG7KxEei5peBJaUJcmg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_sIuIH7KxEei5peBJaUJcmg" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Artifact" href="contoso-serverroom.uml#_AMTvALKuEei5peBJaUJcmg"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sIuIHLKxEei5peBJaUJcmg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sIuIHbKxEei5peBJaUJcmg"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sIuIHrKxEei5peBJaUJcmg"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_v_PGpLKxEei5peBJaUJcmg" type="StereotypeCommentLink" source="_Hqks0LKtEei5peBJaUJcmg" target="_v_PGoLKxEei5peBJaUJcmg">
+    <styles xmi:type="notation:FontStyle" xmi:id="_v_PGpbKxEei5peBJaUJcmg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_v_PGqbKxEei5peBJaUJcmg" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:ExecutionEnvironment" href="contoso-serverroom.uml#_HqfNQLKtEei5peBJaUJcmg"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v_PGprKxEei5peBJaUJcmg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v_PGp7KxEei5peBJaUJcmg"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v_PGqLKxEei5peBJaUJcmg"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_wxnl0LKxEei5peBJaUJcmg" type="StereotypeCommentLink" source="_Cka14LKuEei5peBJaUJcmg" target="_wxm-yLKxEei5peBJaUJcmg">
+    <styles xmi:type="notation:FontStyle" xmi:id="_wxnl0bKxEei5peBJaUJcmg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_wxnl1bKxEei5peBJaUJcmg" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Artifact" href="contoso-serverroom.uml#_CkZnwLKuEei5peBJaUJcmg"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wxnl0rKxEei5peBJaUJcmg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wxnl07KxEei5peBJaUJcmg"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wxnl1LKxEei5peBJaUJcmg"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_x0oiCLKxEei5peBJaUJcmg" type="StereotypeCommentLink" source="_FdWx4LKuEei5peBJaUJcmg" target="_x0oiBLKxEei5peBJaUJcmg">
+    <styles xmi:type="notation:FontStyle" xmi:id="_x0oiCbKxEei5peBJaUJcmg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_x0pJELKxEei5peBJaUJcmg" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Artifact" href="contoso-serverroom.uml#_FdU8sLKuEei5peBJaUJcmg"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_x0oiCrKxEei5peBJaUJcmg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_x0oiC7KxEei5peBJaUJcmg"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_x0oiDLKxEei5peBJaUJcmg"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zXQyZrKxEei5peBJaUJcmg" type="StereotypeCommentLink" source="_SJP1sLKuEei5peBJaUJcmg" target="_zXQyYrKxEei5peBJaUJcmg">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zXQyZ7KxEei5peBJaUJcmg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_zXQya7KxEei5peBJaUJcmg" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Device" href="contoso-serverroom.uml#_SJOnkLKuEei5peBJaUJcmg"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zXQyaLKxEei5peBJaUJcmg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zXQyabKxEei5peBJaUJcmg"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zXQyarKxEei5peBJaUJcmg"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_0VCpSLKxEei5peBJaUJcmg" type="StereotypeCommentLink" source="_UJLGELKuEei5peBJaUJcmg" target="_0VCpRLKxEei5peBJaUJcmg">
+    <styles xmi:type="notation:FontStyle" xmi:id="_0VCpSbKxEei5peBJaUJcmg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_0VCpTbKxEei5peBJaUJcmg" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Artifact" href="contoso-serverroom.uml#_UJJ38LKuEei5peBJaUJcmg"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0VCpSrKxEei5peBJaUJcmg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0VCpS7KxEei5peBJaUJcmg"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0VCpTLKxEei5peBJaUJcmg"/>
+  </edges>
+</notation:Diagram>

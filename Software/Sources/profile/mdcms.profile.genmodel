@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/uml2/2.2.0/GenModel"
+    modelDirectory="/mdcms/src" modelPluginID="mdcms" modelName="Mdcms"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" importerID="org.eclipse.uml2.uml.ecore.importer"
+    complianceLevel="8.0" copyrightFields="false" usedGenPackages="../org.eclipse.emf.ecore/model/Ecore.genmodel#//ecore ../org.eclipse.uml2.types/model/Types.genmodel#//types ../org.eclipse.uml2.uml/model/UML.genmodel#//uml"
+    operationReflection="true" importOrganizing="true">
+  <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/importer/org.eclipse.uml2.uml.ecore.importer">
+    <details key="OPPOSITE_ROLE_NAMES" value="IGNORE"/>
+    <details key="DUPLICATE_FEATURES" value="DISCARD"/>
+    <details key="ANNOTATION_DETAILS" value="PROCESS"/>
+    <details key="PROPERTY_DEFAULT_EXPRESSIONS" value="IGNORE"/>
+    <details key="DUPLICATE_FEATURE_INHERITANCE" value="DISCARD"/>
+    <details key="COMMENTS" value="PROCESS"/>
+    <details key="DERIVED_FEATURES" value="PROCESS"/>
+    <details key="SUPER_CLASS_ORDER" value="IGNORE"/>
+    <details key="DUPLICATE_OPERATION_INHERITANCE" value="DISCARD"/>
+    <details key="REDEFINING_OPERATIONS" value="REPORT"/>
+    <details key="INVARIANT_CONSTRAINTS" value="PROCESS"/>
+    <details key="UNION_PROPERTIES" value="REPORT"/>
+    <details key="DUPLICATE_OPERATIONS" value="DISCARD"/>
+    <details key="NON_API_INVARIANTS" value="IGNORE"/>
+    <details key="CAMEL_CASE_NAMES" value="IGNORE"/>
+    <details key="SUBSETTING_PROPERTIES" value="REPORT"/>
+    <details key="OPERATION_BODIES" value="IGNORE"/>
+    <details key="ECORE_TAGGED_VALUES" value="PROCESS"/>
+    <details key="UNTYPED_PROPERTIES" value="REPORT"/>
+    <details key="REDEFINING_PROPERTIES" value="REPORT"/>
+    <details key="INVOCATION_DELEGATES" value="IGNORE"/>
+    <details key="VALIDATION_DELEGATES" value="IGNORE"/>
+  </genAnnotations>
+  <foreignModel>mdcms.profile.uml</foreignModel>
+  <genPackages xsi:type="genmodel:GenPackage" prefix="Mdcms" disposableProviderFactory="true"
+      ecorePackage="mdcms.ecore#/">
+    <genClasses xsi:type="genmodel:GenClass" image="false" ecoreClass="mdcms.ecore#//Runtime"/>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="mdcms.ecore#//Logical">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference mdcms.ecore#//Logical/base_ExecutionEnvironment"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="mdcms.ecore#//MySQL">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//MySQL/PackageName"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//MySQL/PackageVersion"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//MySQL/RootPassword"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//MySQL/InstallOptions"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" image="false" ecoreClass="mdcms.ecore#//DBEngine"/>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="mdcms.ecore#//Java">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Java/Distribution"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Java/Package"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Java/Version"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="mdcms.ecore#//Firewall">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Firewall/ServiceName"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Firewall/PackageName"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="mdcms.ecore#//Firmware">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Firmware/Type"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Firmware/Version"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" image="false" ecoreClass="mdcms.ecore#//HTTPServer"/>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="mdcms.ecore#//PostgreSQL">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//PostgreSQL/Version"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//PostgreSQL/Encoding"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//PostgreSQL/Locale"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" image="false" ecoreClass="mdcms.ecore#//ApplicationServer"/>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="mdcms.ecore#//OperatingSystem">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//OperatingSystem/Distribution"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//OperatingSystem/Version"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//OperatingSystem/Architecture"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="mdcms.ecore#//Tomcat">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Tomcat/InstallDir"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Tomcat/SourceURL"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="mdcms.ecore#//Apache">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Apache/Version"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Apache/ServerName"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Apache/ConfigDir"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Apache/Docroot"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Apache/Logroot"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Apache/LibPath"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Apache/DefaultVhost"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Apache/VhostDir"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="mdcms.ecore#//PC">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//PC/Processor"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//PC/Architecture"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//PC/DiskType"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//PC/DiskSpace"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//PC/Ram"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//PC/Motherboard"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//PC/GraphicCard"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="mdcms.ecore#//Physical">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference mdcms.ecore#//Physical/base_Device"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Physical/Location"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Physical/IP"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Physical/MAC"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Physical/Manufacturer"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Physical/Model"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="mdcms.ecore#//Switch">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Switch/Speed"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Switch/PowerW"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="mdcms.ecore#//NetworkDevice">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//NetworkDevice/Throughput"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//NetworkDevice/Ports"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="mdcms.ecore#//Router">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Router/SO"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Router/FormFactor"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Router/NetworkInterfaceSlots"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Router/ServiceModuleSlots"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="mdcms.ecore#//Server">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Server/Processor"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Server/Architecture"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Server/DiskType"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Server/DiskSpace"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Server/Ram"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Server/Rack"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="mdcms.ecore#//Database">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Database/Name"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Database/User"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Database/Password"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Database/Host"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Database/Port"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="mdcms.ecore#//Configuration">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference mdcms.ecore#//Configuration/base_Artifact"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="mdcms.ecore#//File">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//File/Path"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//File/Ensure"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//File/Content"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//File/Backup"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//File/Mode"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//File/Group"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//File/Owner"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//File/Replace"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//File/Force"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//File/CreationTime"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//File/ModificationTime"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="mdcms.ecore#//RegistryEntry">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//RegistryEntry/Path"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//RegistryEntry/Ensure"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//RegistryEntry/Type"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//RegistryEntry/Data"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="mdcms.ecore#//FreeForm">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//FreeForm/Description"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="mdcms.ecore#//TomcatApp">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//TomcatApp/Parameters"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//TomcatApp/CatalinaHome"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//TomcatApp/CatalinaBase"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//TomcatApp/Address"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//TomcatApp/Port"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//TomcatApp/ServerConfig"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//TomcatApp/ClassName"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//TomcatApp/AdditionalAttributes"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="mdcms.ecore#//TomcatApp/ConstraintTomcat">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="mdcms.ecore#//TomcatApp/ConstraintTomcat/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="mdcms.ecore#//TomcatApp/ConstraintTomcat/context"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="mdcms.ecore#//JavaOracle">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//JavaOracle/VersionMajor"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//JavaOracle/VersionMinor"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//JavaOracle/JavaSE"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//JavaOracle/OracleURL"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//JavaOracle/ProxyServer"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//JavaOracle/ProxyType"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="mdcms.ecore#//JavaOracle/ConstraintHTTP">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="mdcms.ecore#//JavaOracle/ConstraintHTTP/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="mdcms.ecore#//JavaOracle/ConstraintHTTP/context"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="mdcms.ecore#//FirewallRule">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//FirewallRule/Name"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//FirewallRule/Action"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//FirewallRule/Protocol"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//FirewallRule/Source"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//FirewallRule/SourceRange"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//FirewallRule/Destination"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//FirewallRule/DestinationRange"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//FirewallRule/DestinationPort"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//FirewallRule/InputInterface"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//FirewallRule/OutputInterface"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//FirewallRule/State"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//FirewallRule/TCPFlags"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//FirewallRule/Provider"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="mdcms.ecore#//FirewallRule/ConstraintFirewall">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="mdcms.ecore#//FirewallRule/ConstraintFirewall/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="mdcms.ecore#//FirewallRule/ConstraintFirewall/context"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="mdcms.ecore#//ApacheVhost">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//ApacheVhost/VhostName"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//ApacheVhost/ServerName"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//ApacheVhost/IP"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//ApacheVhost/Port"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//ApacheVhost/Docroot"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//ApacheVhost/DocrootOwner"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//ApacheVhost/DocrootGroup"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//ApacheVhost/SSL"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//ApacheVhost/ServerAliases"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="mdcms.ecore#//ApacheVhost/ConstrainApache">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="mdcms.ecore#//ApacheVhost/ConstrainApache/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="mdcms.ecore#//ApacheVhost/ConstrainApache/context"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="mdcms.ecore#//MySQLDB">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//MySQLDB/Charset"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="mdcms.ecore#//MySQLDB/ConstraintMySQL">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="mdcms.ecore#//MySQLDB/ConstraintMySQL/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="mdcms.ecore#//MySQLDB/ConstraintMySQL/context"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="mdcms.ecore#//PSQLDB">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//PSQLDB/Template"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//PSQLDB/Owner"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="mdcms.ecore#//PSQLDB/ConstraintPSQL">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="mdcms.ecore#//PSQLDB/ConstraintPSQL/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="mdcms.ecore#//PSQLDB/ConstraintPSQL/context"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="mdcms.ecore#//Peripheral">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute mdcms.ecore#//Peripheral/Type"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

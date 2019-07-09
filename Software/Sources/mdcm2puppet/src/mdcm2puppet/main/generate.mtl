@@ -1,0 +1,358 @@
+[comment encoding = UTF-8 /]
+[module generate('http://www.eclipse.org/uml2/5.0.0/UML', 'http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard', 'http://www.fing.edu.uy/mdcms')]
+
+
+[query public pcname(p : mdcms::Physical) : String = p.base_Device.name /]
+[query public pcname(l : mdcms::Logical) : String = l.base_ExecutionEnvironment.owner.oclAsType(uml::Device).name /]
+
+
+[template public generateElement(m : uml::Model)]
+[comment @main /]
+[file ('manifests/site.pp', false, 'UTF-8')]
+#!/usr/bin/puppet
+# -*- puppet -*-
+# File managed by mdcms
+
+[for (el : Element | m.ownedElement->filter(uml::Device))]
+node /^[el.oclAsType(uml::Device).name/]\./ {
+	include device::[el.oclAsType(uml::Device).name/]
+}
+[/for]
+[/file]
+
+[file ('Puppetfile', false, 'UTF-8')]
+# Basic modules
+mod 'puppetlabs-stdlib', '5.2.0'
+mod 'puppetlabs-apt', '7.0.1'
+mod 'puppetlabs-concat', '5.3.0'
+mod 'puppetlabs-translate', '1.2.0'
+mod 'puppet-archive', '3.2.1'
+# Application modules
+mod 'puppetlabs-postgresql', '6.0.0'
+mod 'puppetlabs-mysql', '8.1.0'
+mod 'puppetlabs-apache', '4.1.0'
+mod 'puppetlabs-firewall', '2.0.0'
+mod 'puppetlabs-tomcat', '2.5.0'
+mod 'puppetlabs-java', '3.3.0'
+mod 'puppetlabs-registry', '2.1.0'
+[/file]
+[/template]
+
+[template public generateElement(pc : mdcms::PC)]
+[comment @main/]
+[file ('modules/device/manifests/'+pcname(pc)+'.pp', false, 'UTF-8')]
+class device::[pcname(pc)/] {
+[for (e : Element | pc.base_Device.ownedElement)]
+	include device::[pc.base_Device.name/]::[e.oclAsType(uml::ExecutionEnvironment).name/]
+[/for]
+}
+[/file]
+[/template]
+
+
+[template public generateElement(server : mdcms::Server)]
+[comment @main/]
+[file ('modules/device/manifests/'+pcname(server)+'.pp', false, 'UTF-8')]
+class device::[pcname(server)/] {
+[for (e : Element | server.base_Device.ownedElement)]
+	include device::[server.base_Device.name/]::[e.oclAsType(uml::ExecutionEnvironment).name/]
+[/for]
+}
+[/file]
+[/template]
+
+
+[template public generateElement(os : mdcms::OperatingSystem)]
+[comment @main /]
+[file ('modules/device/manifests/'+pcname(os)+'/'+os.base_ExecutionEnvironment.name+'.pp', false, 'UTF-8')]
+class device::[pcname(os)/]::[os.base_ExecutionEnvironment.name/] {
+	[for (artifact : DeployedArtifact | os.base_ExecutionEnvironment.deployment.deployedArtifact)]
+	include configurations::OS::[artifact.name/]
+	[/for]
+}
+[/file]
+[/template]
+
+
+[template public generateElement(apache : Apache)]
+[comment @main/]
+[file ('modules/device/manifests/'+pcname(apache)+'/'+apache.base_ExecutionEnvironment.name+'.pp', false, 'UTF-8')]
+class device::[pcname(apache)/]::[apache.base_ExecutionEnvironment.name/] {
+	class { 'apache':
+		[writeAttribute('default_vhost', apache.DefaultVhost) +
+		writeAttribute('version', apache.Version) +
+		writeAttribute('conf_dir', apache.ConfigDir) +
+		writeAttribute('docroot', apache.Docroot) +
+		writeAttribute('lib_path', apache.LibPath) +
+		writeAttribute('logroot', apache.Logroot) +
+		writeAttribute('servername', apache.ServerName) +
+		writeAttribute('vhost_dir', apache.VhostDir)/]
+	}
+	
+	[for (apv : DeployedArtifact | apache.base_ExecutionEnvironment.deployment.deployedArtifact)]
+	include configurations::apache::[apv.name/]
+	[/for]
+}
+[/file]
+[/template]
+
+
+[template public generateElement(apv : mdcms::ApacheVhost)]
+[comment @main /]
+[file ('modules/configurations/manifests/apache/'+apv.base_Artifact.name+'.pp', false, 'UTF-8')]
+class configurations::apache::[apv.base_Artifact.name/] {
+	apache::vhost { '[apv.base_Artifact.name/]':
+		[writeAttribute('servername', apv.ServerName) +
+		writeAttribute('vhost_name', apv.VhostName) +
+		writeAttribute('ip', apv.IP) +
+		writeAttribute('port', apv.Port) +
+		writeAttribute('docroot', apv.Docroot) +
+		writeAttribute('docroot_owner', apv.DocrootOwner) +
+		writeAttribute('docroot_group', apv.DocrootGroup) +
+		writeAttribute('ssl', apv.SSL.toString())/]
+	}
+}
+[/file]
+[/template]
+
+
+[template public generateElement(firewall : Firewall)]
+[comment @main/]
+[file ('modules/device/manifests/'+pcname(firewall)+'/'+firewall.base_ExecutionEnvironment.name+'.pp', false, 'UTF-8')]
+class device::[pcname(firewall)/]::[firewall.base_ExecutionEnvironment.name/] {
+	class { 'firewall':
+		[writeAttribute('vhost_dir', firewall.ServiceName)  +
+		writeAttribute('vhost_dir', firewall.PackageName)/]
+	}
+	
+	[for (firewall_rule : DeployedArtifact | firewall.base_ExecutionEnvironment.deployment.deployedArtifact)]
+	include configurations::firewall::[firewall_rule.name/]
+	[/for]
+}
+[/file]
+[/template]
+
+
+[template public generateElement(firewall_rule : mdcms::FirewallRule)]
+[comment @main /]
+[file ('modules/configurations/manifests/firewall/'+firewall_rule.base_Artifact.name+'.pp', false, 'UTF-8')]
+class configurations::firewall::[firewall_rule.base_Artifact.name/] {
+	firewall { '[firewall_rule.Name/]':
+		[writeAttribute('action', firewall_rule.Action) +
+		writeAttribute('protocol', firewall_rule.Protocol) +
+		writeAttribute('source', firewall_rule.Source) +
+		writeAttribute('destination', firewall_rule.Destination) +
+		writeAttribute('src_range', firewall_rule.SourceRange) +
+		writeAttribute('dst_range', firewall_rule.DestinationRange) +
+		writeAttribute('dport', firewall_rule.DestinationPort) +
+		writeAttribute('iniface', firewall_rule.InputInterface) +
+		writeAttribute('outiface', firewall_rule.OutputInterface) +
+		writeAttribute('provider', firewall_rule.Provider) +
+		writeAttribute('tcp_flags', firewall_rule.TCPFlags) +
+		writeAttribute('state', firewall_rule.State)/]
+	}
+}
+[/file]
+[/template]
+
+
+[template public generateElement(java : Java)]
+[comment @main/]
+[file ('modules/device/manifests/'+pcname(java)+'/'+java.base_ExecutionEnvironment.name+'.pp', false, 'UTF-8')]
+class device::[pcname(java)/]::[java.base_ExecutionEnvironment.name/] {
+	class { 'java':
+		[writeAttribute('package', java.Package) +
+		writeAttribute('distribution', java.Distribution) +
+		writeAttribute('version', java.Version)/]
+	}
+	
+	[for (java_oracle : DeployedArtifact | java.base_ExecutionEnvironment.deployment.deployedArtifact)]
+	include configurations::java::[java_oracle.name/]
+	[/for]
+}
+[/file]
+[/template]
+
+
+[template public generateElement(java_oracle : mdcms::JavaOracle)]
+[comment @main /]
+[file ('modules/configurations/manifests/java/'+java_oracle.base_Artifact.name+'.pp', false, 'UTF-8')]
+class configurations::java::[java_oracle.base_Artifact.name/] {
+	java::oracle { '[java_oracle.base_Artifact.name/]',
+		[writeAttribute('version_major', java_oracle.VersionMajor) +
+		writeAttribute('version_minor', java_oracle.VersionMinor) +
+		writeAttribute('java_se', java_oracle.JavaSE) +
+		writeAttribute('oracle_url', java_oracle.OracleURL) +
+		writeAttribute('proxy_server', java_oracle.ProxyServer) +
+		writeAttribute('proxy_type', java_oracle.ProxyType)/]
+	}
+}
+[/file]
+[/template]
+
+
+[template public generateElement(mysql : MySQL)]
+[comment @main/]
+[file ('modules/device/manifests/'+pcname(mysql)+'/'+mysql.base_ExecutionEnvironment.name+'.pp', false, 'UTF-8')]
+class device::[pcname(mysql)/]::[mysql.base_ExecutionEnvironment.name/] {
+	class { '::mysql::server':
+		[writeAttribute('package_name', mysql.PackageName) +
+		writeAttribute('package_ensure', mysql.PackageVersion) +
+		writeAttribute('install_options', mysql.InstallOptions) +
+		writeAttribute('root_password', mysql.RootPassword)/]
+	}
+	[for (db : DeployedArtifact | mysql.base_ExecutionEnvironment.deployment.deployedArtifact)]
+	include configurations::db::[db.name/]
+	[/for]
+}
+[/file]
+[/template]
+
+
+[template public generateElement(db : mdcms::MySQLDB)]
+[comment @main/]
+[file ('modules/configurations/manifests/db/'+db.base_Artifact.name+'.pp', false, 'UTF-8')]
+class configurations::db::[db.base_Artifact.name/] {
+	mysql::db { '[db.base_Artifact.name/]',
+		[writeAttribute('dbname', db.Name) +
+		writeAttribute('host', db.Host) +
+		writeAttribute('port', db.Port) +
+		writeAttribute('user', db.User) +
+		writeAttribute('password', db.Password)/]
+	}
+}
+[/file]
+[/template]
+
+
+[template public generateElement(psql : PostgreSQL)]
+[comment @main/]
+[file ('modules/device/manifests/'+pcname(psql)+'/'+psql.base_ExecutionEnvironment.name+'.pp', false, 'UTF-8')]
+class device::[pcname(psql)/]::[psql.base_ExecutionEnvironment.name/]{
+	[if (psql.Version <> null)]
+	class { 'postgresql::globals':
+		version => [psql.Version/]
+	}
+	[/if]
+	class { 'postgresql::server':
+		[writeAttribute('encoding', psql.Encoding) +
+		writeAttribute('locale', psql.Locale)/]
+	}
+	
+	[for (db : DeployedArtifact | psql.base_ExecutionEnvironment.deployment.deployedArtifact)]
+	include configurations::db::[db.name/]
+	[/for]
+}
+[/file]
+[/template]
+
+
+[template public generateElement(db : mdcms::PSQLDB)]
+[comment @main /]
+[file ('modules/configurations/manifests/db/'+db.base_Artifact.name+'.pp', false, 'UTF-8')]
+class configuration::db::[db.base_Artifact.name/] {
+	postgresql::server::db { '[db.base_Artifact.name/]',
+		[writeAttribute('dbname', db.Name) +
+		writeAttribute('host', db.Host) +
+		writeAttribute('port', db.Port) +
+		writeAttribute('owner', db.Owner) +
+		writeAttribute('user', db.User) +
+		writeAttribute('password', db.Password) +
+		writeAttribute('template', db.Template)/]
+	}
+}
+[/file]
+[/template]
+
+
+[template public generateElement(tomcat : mdcms::Tomcat)]
+[comment @main/]
+[file ('modules/device/manifests/'+pcname(tomcat)+'/'+tomcat.base_ExecutionEnvironment.name+'.pp', false, 'UTF-8')]
+class device::[pcname(tomcat)/]::[tomcat.base_ExecutionEnvironment.name/] {
+	tomcat::install { '/opt/tomcat':
+		[writeAttribute('source_url', tomcat.SourceURL) +
+		writeAttribute('intall_dir', tomcat.InstallDir)/]
+	}
+	[for (ta : DeployedArtifact | tomcat.base_ExecutionEnvironment.deployment.deployedArtifact)]
+	include configurations::tomcat::[ta.name/]
+	[/for]
+}
+[/file]
+[/template]
+
+
+[template public generateElement(tapp : mdcms::TomcatApp)]
+[comment @main /]
+[file ('modules/configurations/manifests/tomcat/'+tapp.base_Artifact.name+'.pp', false, 'UTF-8')]
+class configuration::tomcat::[tapp.base_Artifact.name/]{
+	tomcat::instance { '[tapp.base_Artifact.name/]'
+		[writeAttribute('catalina_home', tapp.CatalinaHome) +
+		writeAttribute('catalina_base', tapp.CatalinaBase) +
+		writeAttribute('address', tapp.Address) +
+		writeAttribute('port', tapp.Port) +
+		writeAttribute('class_name', tapp.ClassName) +
+		writeAttribute('server_config', tapp.ServerConfig) +
+		writeAttribute('parameters', tapp.Parameters)/][if (tapp.AdditionalAttributes <> null)]
+additional_attributes => [tapp.AdditionalAttributes/],
+[/if]
+	}
+}
+[/file]
+[/template]
+
+[template public generateElement(reg : mdcms::RegistryEntry)]
+[comment @main /]
+[file ('modules/configurations/manifests/OS/'+reg.base_Artifact.name+'.pp', false, 'UTF-8')]
+class configuration::OS::[reg.base_Artifact.name/]{
+	registry_value { '[reg.base_Artifact.name/]'
+		[writeAttribute('path', reg.Path) +
+		writeAttribute('ensure', reg.Ensure) +
+		writeAttribute('type', reg.Type) +
+		writeAttribute('port', reg.Data)/]
+	}
+}
+[/file]
+[/template]
+
+[template public generateElement(f : mdcms::File)]
+[comment @main /]
+[file ('modules/configurations/manifests/OS/'+f.base_Artifact.name+'.pp', false, 'UTF-8')]
+class configuration::OS::[f.base_Artifact.name/]{
+	file { '[f.base_Artifact.name/]'
+		[writeAttribute('path', f.Path) +
+		writeAttribute('ensure', f.Ensure) +
+		writeAttribute('content', f.Content) +
+		writeAttribute('backup', f.Backup) +
+		writeAttribute('mode', f.Mode) +
+		writeAttribute('group', f.Group) +
+		writeAttribute('owner', f.Owner) +
+		writeAttribute('replace', f.Replace) +
+		writeAttribute('force', f.Force) +
+		writeAttribute('ctime', f.CreationTime) +
+		writeAttribute('mtime', f.ModificationTime)/]
+	}
+}
+[/file]
+[/template]
+
+[template public writeAttribute(s1 : String, s2: String)]
+[if (s2 <> null)]
+[s1/] => '[s2/]',
+[/if]
+[/template]
+
+[template public writeInfo(s1 : String, s2: String)]
+[if (s2 <> null)]
+[s1/]: [s2/]
+[/if]
+[/template]
+
+[comment][template public generateModel(model : Model)]
+[file (model.name, false, 'UTF-8')]
+[for (c : Class | model.eContents(Class))]
+[model.name/]
+class { [c.name/]
+}
+[/for]
+[/file]
+[/template][/comment]

@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_sUc38LKmEeiqw8sNLa9knQ" type="PapyrusUMLDeploymentDiagram" name="Deployment Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_t0iKoLKmEeiqw8sNLa9knQ" type="Device_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_t0jYwLKmEeiqw8sNLa9knQ" type="Device_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_t0jYwbKmEeiqw8sNLa9knQ" type="Device_NestedNodeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_t0jYwrKmEeiqw8sNLa9knQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t0jYw7KmEeiqw8sNLa9knQ"/>
+    </children>
+    <element xmi:type="uml:Device" href="contoso-arch.uml#_t0egQLKmEeiqw8sNLa9knQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t0iKobKmEeiqw8sNLa9knQ" x="40" y="40" width="241" height="201"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_CauykLKnEeiqw8sNLa9knQ" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_CauykbKnEeiqw8sNLa9knQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Cauyk7KnEeiqw8sNLa9knQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Device" href="contoso-arch.uml#_t0egQLKmEeiqw8sNLa9knQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CauykrKnEeiqw8sNLa9knQ" x="340" y="60"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_iuE-ILKnEeiqw8sNLa9knQ" type="Device_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_iuFlMLKnEeiqw8sNLa9knQ" type="Device_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_iuGMQLKnEeiqw8sNLa9knQ" type="Device_NestedNodeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_iuGMQbKnEeiqw8sNLa9knQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iuGMQrKnEeiqw8sNLa9knQ"/>
+    </children>
+    <element xmi:type="uml:Device" href="contoso-arch.uml#_iuDI8LKnEeiqw8sNLa9knQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iuE-IbKnEeiqw8sNLa9knQ" x="380" y="300"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_qi_E4LKnEeiqw8sNLa9knQ" type="Device_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_qi_E4rKnEeiqw8sNLa9knQ" type="Device_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_qi_E47KnEeiqw8sNLa9knQ" type="Device_NestedNodeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_qi_E5LKnEeiqw8sNLa9knQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qi_E5bKnEeiqw8sNLa9knQ"/>
+    </children>
+    <element xmi:type="uml:Device" href="contoso-arch.uml#_qi92wLKnEeiqw8sNLa9knQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qi_E4bKnEeiqw8sNLa9knQ" x="340" y="40" width="241" height="201"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_uDR70LKnEeiqw8sNLa9knQ" type="Device_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_uDR70rKnEeiqw8sNLa9knQ" type="Device_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_uDR707KnEeiqw8sNLa9knQ" type="Device_NestedNodeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_uDR71LKnEeiqw8sNLa9knQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uDR71bKnEeiqw8sNLa9knQ"/>
+    </children>
+    <element xmi:type="uml:Device" href="contoso-arch.uml#_uDQtsLKnEeiqw8sNLa9knQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uDR70bKnEeiqw8sNLa9knQ" x="720" y="460"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_4X7bcLKnEeiqw8sNLa9knQ" type="Device_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_4X8CgLKnEeiqw8sNLa9knQ" type="Device_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_4X8CgbKnEeiqw8sNLa9knQ" type="Device_NestedNodeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_4X8CgrKnEeiqw8sNLa9knQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4X8Cg7KnEeiqw8sNLa9knQ"/>
+    </children>
+    <element xmi:type="uml:Device" href="contoso-arch.uml#_4X6NULKnEeiqw8sNLa9knQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4X7bcbKnEeiqw8sNLa9knQ" x="640" y="40"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_7THaMLKnEeiqw8sNLa9knQ" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_7THaMbKnEeiqw8sNLa9knQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_7THaM7KnEeiqw8sNLa9knQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Device" href="contoso-arch.uml#_iuDI8LKnEeiqw8sNLa9knQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7THaMrKnEeiqw8sNLa9knQ" x="420" y="300"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_EJryQLKoEeiqw8sNLa9knQ" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_EJryQbKoEeiqw8sNLa9knQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_EJryQ7KoEeiqw8sNLa9knQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Device" href="contoso-arch.uml#_uDQtsLKnEeiqw8sNLa9knQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EJryQrKoEeiqw8sNLa9knQ" x="420" y="460"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Mfrz4LKoEeiqw8sNLa9knQ" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_Mfrz4bKoEeiqw8sNLa9knQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Mfrz47KoEeiqw8sNLa9knQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Device" href="contoso-arch.uml#_qi92wLKnEeiqw8sNLa9knQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Mfrz4rKoEeiqw8sNLa9knQ" x="540" y="40"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_PoQHULKoEeiqw8sNLa9knQ" type="Device_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_PoQHUrKoEeiqw8sNLa9knQ" type="Device_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_PoQHU7KoEeiqw8sNLa9knQ" type="Device_NestedNodeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_PoQHVLKoEeiqw8sNLa9knQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PoQHVbKoEeiqw8sNLa9knQ"/>
+    </children>
+    <element xmi:type="uml:Device" href="contoso-arch.uml#_PoHkcLKoEeiqw8sNLa9knQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PoQHUbKoEeiqw8sNLa9knQ" x="1060" y="300"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_PobGcLKoEeiqw8sNLa9knQ" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_PobGcbKoEeiqw8sNLa9knQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_PobGc7KoEeiqw8sNLa9knQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Device" href="contoso-arch.uml#_PoHkcLKoEeiqw8sNLa9knQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PobGcrKoEeiqw8sNLa9knQ" x="723" y="556"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Vmr0oLKoEeiqw8sNLa9knQ" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_Vmr0obKoEeiqw8sNLa9knQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Vmr0o7KoEeiqw8sNLa9knQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Device" href="contoso-arch.uml#_4X6NULKnEeiqw8sNLa9knQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Vmr0orKoEeiqw8sNLa9knQ" x="860" y="140"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_dC4gcLKoEeiqw8sNLa9knQ" type="Device_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dC4gcrKoEeiqw8sNLa9knQ" type="Device_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_dC5HgLKoEeiqw8sNLa9knQ" type="Device_NestedNodeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_dC5HgbKoEeiqw8sNLa9knQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dC5HgrKoEeiqw8sNLa9knQ"/>
+    </children>
+    <element xmi:type="uml:Device" href="contoso-arch.uml#_dC3SULKoEeiqw8sNLa9knQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dC4gcbKoEeiqw8sNLa9knQ" x="840" y="40"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_dDBDU7KoEeiqw8sNLa9knQ" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_dDBDVLKoEeiqw8sNLa9knQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dDBDVrKoEeiqw8sNLa9knQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Device" href="contoso-arch.uml#_dC3SULKoEeiqw8sNLa9knQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dDBDVbKoEeiqw8sNLa9knQ" x="1692" y="878"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_eqKnULKoEeiqw8sNLa9knQ" type="Device_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_eqLOYLKoEeiqw8sNLa9knQ" type="Device_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_eqLOYbKoEeiqw8sNLa9knQ" type="Device_NestedNodeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_eqLOYrKoEeiqw8sNLa9knQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eqLOY7KoEeiqw8sNLa9knQ"/>
+    </children>
+    <element xmi:type="uml:Device" href="contoso-arch.uml#_eqJZMLKoEeiqw8sNLa9knQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eqKnUbKoEeiqw8sNLa9knQ" x="1060" y="40"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_eqTKMLKoEeiqw8sNLa9knQ" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_eqTKMbKoEeiqw8sNLa9knQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_eqTKM7KoEeiqw8sNLa9knQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Device" href="contoso-arch.uml#_eqJZMLKoEeiqw8sNLa9knQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eqTKMrKoEeiqw8sNLa9knQ" x="1000" y="300"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_fJoKgLKoEeiqw8sNLa9knQ" type="Device_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_fJoKgrKoEeiqw8sNLa9knQ" type="Device_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_fJoxkLKoEeiqw8sNLa9knQ" type="Device_NestedNodeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_fJoxkbKoEeiqw8sNLa9knQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fJoxkrKoEeiqw8sNLa9knQ"/>
+    </children>
+    <element xmi:type="uml:Device" href="contoso-arch.uml#_fJmVULKoEeiqw8sNLa9knQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fJoKgbKoEeiqw8sNLa9knQ" x="1260" y="40"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_fJx7g7KoEeiqw8sNLa9knQ" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_fJx7hLKoEeiqw8sNLa9knQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_fJx7hrKoEeiqw8sNLa9knQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Device" href="contoso-arch.uml#_fJmVULKoEeiqw8sNLa9knQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fJx7hbKoEeiqw8sNLa9knQ" x="1048" y="386"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_fr80cLKoEeiqw8sNLa9knQ" type="Device_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_fr9bgLKoEeiqw8sNLa9knQ" type="Device_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_fr9bgbKoEeiqw8sNLa9knQ" type="Device_NestedNodeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_fr9bgrKoEeiqw8sNLa9knQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fr9bg7KoEeiqw8sNLa9knQ"/>
+    </children>
+    <element xmi:type="uml:Device" href="contoso-arch.uml#_fr7mULKoEeiqw8sNLa9knQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fr80cbKoEeiqw8sNLa9knQ" x="1480" y="40"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_fsGlcLKoEeiqw8sNLa9knQ" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_fsGlcbKoEeiqw8sNLa9knQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_fsGlc7KoEeiqw8sNLa9knQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Device" href="contoso-arch.uml#_fr7mULKoEeiqw8sNLa9knQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fsGlcrKoEeiqw8sNLa9knQ" x="978" y="454"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_gBCToLKoEeiqw8sNLa9knQ" type="Device_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_gBCTorKoEeiqw8sNLa9knQ" type="Device_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_gBCTo7KoEeiqw8sNLa9knQ" type="Device_NestedNodeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_gBC6sLKoEeiqw8sNLa9knQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gBC6sbKoEeiqw8sNLa9knQ"/>
+    </children>
+    <element xmi:type="uml:Device" href="contoso-arch.uml#_gBBFgLKoEeiqw8sNLa9knQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gBCTobKoEeiqw8sNLa9knQ" x="1680" y="40"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_gBMrsLKoEeiqw8sNLa9knQ" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_gBMrsbKoEeiqw8sNLa9knQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_gBMrs7KoEeiqw8sNLa9knQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Device" href="contoso-arch.uml#_gBBFgLKoEeiqw8sNLa9knQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gBMrsrKoEeiqw8sNLa9knQ" x="812" y="488"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_usCIcLKoEeiqw8sNLa9knQ" type="Device_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_usCIcrKoEeiqw8sNLa9knQ" type="Device_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_usCIc7KoEeiqw8sNLa9knQ" type="Device_NestedNodeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_usCIdLKoEeiqw8sNLa9knQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_usCIdbKoEeiqw8sNLa9knQ"/>
+    </children>
+    <element xmi:type="uml:Device" href="contoso-arch.uml#_usATQLKoEeiqw8sNLa9knQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_usCIcbKoEeiqw8sNLa9knQ" x="1537" y="328"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_xPgx1rKoEeiqw8sNLa9knQ" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_xPgx17KoEeiqw8sNLa9knQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_xPgx2bKoEeiqw8sNLa9knQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Device" href="contoso-arch.uml#_usATQLKoEeiqw8sNLa9knQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xPgx2LKoEeiqw8sNLa9knQ" x="1737" y="328"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_sUc38bKmEeiqw8sNLa9knQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_sUc38rKmEeiqw8sNLa9knQ"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_sUc387KmEeiqw8sNLa9knQ" diagramKindId="org.eclipse.papyrus.uml.diagram.deployment">
+    <owner xmi:type="uml:Model" href="contoso-arch.uml#_sThD0LKmEeiqw8sNLa9knQ"/>
+  </styles>
+  <element xmi:type="uml:Model" href="contoso-arch.uml#_sThD0LKmEeiqw8sNLa9knQ"/>
+  <edges xmi:type="notation:Connector" xmi:id="_CavZoLKnEeiqw8sNLa9knQ" type="StereotypeCommentLink" source="_t0iKoLKmEeiqw8sNLa9knQ" target="_CauykLKnEeiqw8sNLa9knQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_CavZobKnEeiqw8sNLa9knQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_CawAsbKnEeiqw8sNLa9knQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Device" href="contoso-arch.uml#_t0egQLKmEeiqw8sNLa9knQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CavZorKnEeiqw8sNLa9knQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CavZo7KnEeiqw8sNLa9knQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CawAsLKnEeiqw8sNLa9knQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_mUmY4LKnEeiqw8sNLa9knQ" type="CommunicationPath_Edge" source="_t0iKoLKmEeiqw8sNLa9knQ" target="_iuE-ILKnEeiqw8sNLa9knQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_mUm_8LKnEeiqw8sNLa9knQ" type="CommunicationPath_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_qB6YILKnEeiqw8sNLa9knQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mUm_8bKnEeiqw8sNLa9knQ" x="1" y="39"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_mUm_8rKnEeiqw8sNLa9knQ" type="CommunicationPath_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_qCBF0LKnEeiqw8sNLa9knQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mUm_87KnEeiqw8sNLa9knQ" y="59"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_mUmY4bKnEeiqw8sNLa9knQ"/>
+    <element xmi:type="uml:CommunicationPath" href="contoso-arch.uml#_mUS24LKnEeiqw8sNLa9knQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mUmY4rKnEeiqw8sNLa9knQ" points="[150, 231, -643984, -643984]$[413, 291, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mVRuULKnEeiqw8sNLa9knQ" id="(0.4979253112033195,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mVSVYLKnEeiqw8sNLa9knQ" id="(0.29333333333333333,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_tMonsLKnEeiqw8sNLa9knQ" type="CommunicationPath_Edge" source="_qi_E4LKnEeiqw8sNLa9knQ" target="_iuE-ILKnEeiqw8sNLa9knQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_tMons7KnEeiqw8sNLa9knQ" type="CommunicationPath_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_0JUF8LKnEeiqw8sNLa9knQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_tMontLKnEeiqw8sNLa9knQ" y="39"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_tMontbKnEeiqw8sNLa9knQ" type="CommunicationPath_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_0JUtALKnEeiqw8sNLa9knQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_tMontrKnEeiqw8sNLa9knQ" y="59"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_tMonsbKnEeiqw8sNLa9knQ"/>
+    <element xmi:type="uml:CommunicationPath" href="contoso-arch.uml#_tMcacLKnEeiqw8sNLa9knQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tMonsrKnEeiqw8sNLa9knQ" points="[451, 231, -643984, -643984]$[451, 291, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tM9-4LKnEeiqw8sNLa9knQ" id="(0.5352697095435685,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tM9-4bKnEeiqw8sNLa9knQ" id="(0.5333333333333333,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_vkPYQLKnEeiqw8sNLa9knQ" type="CommunicationPath_Edge" source="_iuE-ILKnEeiqw8sNLa9knQ" target="_uDR70LKnEeiqw8sNLa9knQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_vkP_ULKnEeiqw8sNLa9knQ" type="CommunicationPath_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_znIl8LKnEeiqw8sNLa9knQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_vkP_UbKnEeiqw8sNLa9knQ" y="39"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vkP_UrKnEeiqw8sNLa9knQ" type="CommunicationPath_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_znRv4LKnEeiqw8sNLa9knQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_vkP_U7KnEeiqw8sNLa9knQ" x="1" y="58"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_vkPYQbKnEeiqw8sNLa9knQ"/>
+    <element xmi:type="uml:CommunicationPath" href="contoso-arch.uml#_vj-SgLKnEeiqw8sNLa9knQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vkPYQrKnEeiqw8sNLa9knQ" points="[451, 391, -643984, -643984]$[764, 451, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vkrdILKnEeiqw8sNLa9knQ" id="(0.5333333333333333,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vkrdIbKnEeiqw8sNLa9knQ" id="(0.44,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_7THaNLKnEeiqw8sNLa9knQ" type="StereotypeCommentLink" source="_iuE-ILKnEeiqw8sNLa9knQ" target="_7THaMLKnEeiqw8sNLa9knQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_7THaNbKnEeiqw8sNLa9knQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_7THaObKnEeiqw8sNLa9knQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Device" href="contoso-arch.uml#_iuDI8LKnEeiqw8sNLa9knQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7THaNrKnEeiqw8sNLa9knQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7THaN7KnEeiqw8sNLa9knQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7THaOLKnEeiqw8sNLa9knQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_EJryRLKoEeiqw8sNLa9knQ" type="StereotypeCommentLink" source="_uDR70LKnEeiqw8sNLa9knQ" target="_EJryQLKoEeiqw8sNLa9knQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_EJryRbKoEeiqw8sNLa9knQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_EJrySbKoEeiqw8sNLa9knQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Device" href="contoso-arch.uml#_uDQtsLKnEeiqw8sNLa9knQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_EJryRrKoEeiqw8sNLa9knQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EJryR7KoEeiqw8sNLa9knQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EJrySLKoEeiqw8sNLa9knQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Mfrz5LKoEeiqw8sNLa9knQ" type="StereotypeCommentLink" source="_qi_E4LKnEeiqw8sNLa9knQ" target="_Mfrz4LKoEeiqw8sNLa9knQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Mfrz5bKoEeiqw8sNLa9knQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Mfsa8rKoEeiqw8sNLa9knQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Device" href="contoso-arch.uml#_qi92wLKnEeiqw8sNLa9knQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Mfrz5rKoEeiqw8sNLa9knQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Mfsa8LKoEeiqw8sNLa9knQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Mfsa8bKoEeiqw8sNLa9knQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_PobGdLKoEeiqw8sNLa9knQ" type="StereotypeCommentLink" source="_PoQHULKoEeiqw8sNLa9knQ" target="_PobGcLKoEeiqw8sNLa9knQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_PobGdbKoEeiqw8sNLa9knQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_PobGebKoEeiqw8sNLa9knQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Device" href="contoso-arch.uml#_PoHkcLKoEeiqw8sNLa9knQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PobGdrKoEeiqw8sNLa9knQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PobGd7KoEeiqw8sNLa9knQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PobGeLKoEeiqw8sNLa9knQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_UlNJgLKoEeiqw8sNLa9knQ" type="CommunicationPath_Edge" source="_PoQHULKoEeiqw8sNLa9knQ" target="_uDR70LKnEeiqw8sNLa9knQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_UlNwkLKoEeiqw8sNLa9knQ" type="CommunicationPath_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_jYxrgLKoEeiqw8sNLa9knQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_UlNwkbKoEeiqw8sNLa9knQ" x="-1" y="38"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_UlNwkrKoEeiqw8sNLa9knQ" type="CommunicationPath_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_jYySkLKoEeiqw8sNLa9knQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_UlNwk7KoEeiqw8sNLa9knQ" x="-1" y="58"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_UlNJgbKoEeiqw8sNLa9knQ"/>
+    <element xmi:type="uml:CommunicationPath" href="contoso-arch.uml#_Uk8DwLKoEeiqw8sNLa9knQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UlNJgrKoEeiqw8sNLa9knQ" points="[1127, 391, -643984, -643984]$[814, 451, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UlqcgLKoEeiqw8sNLa9knQ" id="(0.5866666666666667,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UlqcgbKoEeiqw8sNLa9knQ" id="(0.6666666666666666,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Vmr0pLKoEeiqw8sNLa9knQ" type="StereotypeCommentLink" source="_4X7bcLKnEeiqw8sNLa9knQ" target="_Vmr0oLKoEeiqw8sNLa9knQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Vmr0pbKoEeiqw8sNLa9knQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Vmr0qbKoEeiqw8sNLa9knQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Device" href="contoso-arch.uml#_4X6NULKnEeiqw8sNLa9knQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Vmr0prKoEeiqw8sNLa9knQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Vmr0p7KoEeiqw8sNLa9knQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Vmr0qLKoEeiqw8sNLa9knQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_bMqlsLKoEeiqw8sNLa9knQ" type="CommunicationPath_Edge" source="_4X7bcLKnEeiqw8sNLa9knQ" target="_PoQHULKoEeiqw8sNLa9knQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_bMrMwLKoEeiqw8sNLa9knQ" type="CommunicationPath_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_jY6OYLKoEeiqw8sNLa9knQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_bMrMwbKoEeiqw8sNLa9knQ" x="-2" y="37"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_bMrMwrKoEeiqw8sNLa9knQ" type="CommunicationPath_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_jY6OYbKoEeiqw8sNLa9knQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_bMrMw7KoEeiqw8sNLa9knQ" x="-2" y="57"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_bMqlsbKoEeiqw8sNLa9knQ"/>
+    <element xmi:type="uml:CommunicationPath" href="contoso-arch.uml#_bMZf8LKoEeiqw8sNLa9knQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bMqlsrKoEeiqw8sNLa9knQ" points="[707, 130, -643984, -643984]$[797, 230, -643984, -643984]$[1077, 291, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bNRCoLKoEeiqw8sNLa9knQ" id="(0.5333333333333333,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bNRCobKoEeiqw8sNLa9knQ" id="(0.18666666666666668,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_dDBDV7KoEeiqw8sNLa9knQ" type="StereotypeCommentLink" source="_dC4gcLKoEeiqw8sNLa9knQ" target="_dDBDU7KoEeiqw8sNLa9knQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_dDBDWLKoEeiqw8sNLa9knQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dDBDXLKoEeiqw8sNLa9knQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Device" href="contoso-arch.uml#_dC3SULKoEeiqw8sNLa9knQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dDBDWbKoEeiqw8sNLa9knQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dDBDWrKoEeiqw8sNLa9knQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dDBDW7KoEeiqw8sNLa9knQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_eqTKNLKoEeiqw8sNLa9knQ" type="StereotypeCommentLink" source="_eqKnULKoEeiqw8sNLa9knQ" target="_eqTKMLKoEeiqw8sNLa9knQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_eqTKNbKoEeiqw8sNLa9knQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_eqTKObKoEeiqw8sNLa9knQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Device" href="contoso-arch.uml#_eqJZMLKoEeiqw8sNLa9knQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eqTKNrKoEeiqw8sNLa9knQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eqTKN7KoEeiqw8sNLa9knQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eqTKOLKoEeiqw8sNLa9knQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_fJx7h7KoEeiqw8sNLa9knQ" type="StereotypeCommentLink" source="_fJoKgLKoEeiqw8sNLa9knQ" target="_fJx7g7KoEeiqw8sNLa9knQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_fJx7iLKoEeiqw8sNLa9knQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_fJyikbKoEeiqw8sNLa9knQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Device" href="contoso-arch.uml#_fJmVULKoEeiqw8sNLa9knQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fJx7ibKoEeiqw8sNLa9knQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fJx7irKoEeiqw8sNLa9knQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fJyikLKoEeiqw8sNLa9knQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_fsGldLKoEeiqw8sNLa9knQ" type="StereotypeCommentLink" source="_fr80cLKoEeiqw8sNLa9knQ" target="_fsGlcLKoEeiqw8sNLa9knQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_fsGldbKoEeiqw8sNLa9knQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_fsGlebKoEeiqw8sNLa9knQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Device" href="contoso-arch.uml#_fr7mULKoEeiqw8sNLa9knQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fsGldrKoEeiqw8sNLa9knQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fsGld7KoEeiqw8sNLa9knQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fsGleLKoEeiqw8sNLa9knQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_gBMrtLKoEeiqw8sNLa9knQ" type="StereotypeCommentLink" source="_gBCToLKoEeiqw8sNLa9knQ" target="_gBMrsLKoEeiqw8sNLa9knQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_gBMrtbKoEeiqw8sNLa9knQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_gBMrubKoEeiqw8sNLa9knQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Device" href="contoso-arch.uml#_gBBFgLKoEeiqw8sNLa9knQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gBMrtrKoEeiqw8sNLa9knQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gBMrt7KoEeiqw8sNLa9knQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gBMruLKoEeiqw8sNLa9knQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_gzwxELKoEeiqw8sNLa9knQ" type="CommunicationPath_Edge" source="_eqKnULKoEeiqw8sNLa9knQ" target="_PoQHULKoEeiqw8sNLa9knQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_gzwxE7KoEeiqw8sNLa9knQ" type="CommunicationPath_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_jY_G4LKoEeiqw8sNLa9knQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_gzwxFLKoEeiqw8sNLa9knQ" x="-1" y="37"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_gzwxFbKoEeiqw8sNLa9knQ" type="CommunicationPath_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_jY_t8LKoEeiqw8sNLa9knQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_gzwxFrKoEeiqw8sNLa9knQ" x="-1" y="57"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_gzwxEbKoEeiqw8sNLa9knQ"/>
+    <element xmi:type="uml:CommunicationPath" href="contoso-arch.uml#_gzYWkLKoEeiqw8sNLa9knQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gzwxErKoEeiqw8sNLa9knQ" points="[1127, 130, -643984, -643984]$[1127, 291, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_g0nFoLKoEeiqw8sNLa9knQ" id="(0.5866666666666667,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_g0nFobKoEeiqw8sNLa9knQ" id="(0.5333333333333333,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_hWiG8LKoEeiqw8sNLa9knQ" type="CommunicationPath_Edge" source="_fJoKgLKoEeiqw8sNLa9knQ" target="_PoQHULKoEeiqw8sNLa9knQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_hWiG87KoEeiqw8sNLa9knQ" type="CommunicationPath_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_jY_t8bKoEeiqw8sNLa9knQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hWiG9LKoEeiqw8sNLa9knQ" x="1" y="38"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_hWiG9bKoEeiqw8sNLa9knQ" type="CommunicationPath_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_jY_t8rKoEeiqw8sNLa9knQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hWiG9rKoEeiqw8sNLa9knQ" x="1" y="58"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_hWiG8bKoEeiqw8sNLa9knQ"/>
+    <element xmi:type="uml:CommunicationPath" href="contoso-arch.uml#_hWOk8LKoEeiqw8sNLa9knQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hWiG8rKoEeiqw8sNLa9knQ" points="[1337, 130, -643984, -643984]$[1246, 230, -643984, -643984]$[1145, 291, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hXPRkLKoEeiqw8sNLa9knQ" id="(0.52,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hXPRkbKoEeiqw8sNLa9knQ" id="(0.6666666666666666,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_iUOeQLKoEeiqw8sNLa9knQ" type="CommunicationPath_Edge" source="_fr80cLKoEeiqw8sNLa9knQ" target="_PoQHULKoEeiqw8sNLa9knQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_iUPFULKoEeiqw8sNLa9knQ" type="CommunicationPath_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_jZAVALKoEeiqw8sNLa9knQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_iUPFUbKoEeiqw8sNLa9knQ" x="-1" y="38"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_iUPFUrKoEeiqw8sNLa9knQ" type="CommunicationPath_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_jZAVAbKoEeiqw8sNLa9knQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_iUPFU7KoEeiqw8sNLa9knQ" x="-1" y="58"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_iUOeQbKoEeiqw8sNLa9knQ"/>
+    <element xmi:type="uml:CommunicationPath" href="contoso-arch.uml#_iT5HELKoEeiqw8sNLa9knQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iUOeQrKoEeiqw8sNLa9knQ" points="[1547, 130, -643984, -643984]$[1456, 230, -643984, -643984]$[1164, 291, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iVGoALKoEeiqw8sNLa9knQ" id="(0.5866666666666667,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iVGoAbKoEeiqw8sNLa9knQ" id="(0.8,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_i2VFwLKoEeiqw8sNLa9knQ" type="CommunicationPath_Edge" source="_gBCToLKoEeiqw8sNLa9knQ" target="_PoQHULKoEeiqw8sNLa9knQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_i2Vs0LKoEeiqw8sNLa9knQ" type="CommunicationPath_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_jZA8ELKoEeiqw8sNLa9knQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_i2Vs0bKoEeiqw8sNLa9knQ" x="-1" y="38"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_i2Vs0rKoEeiqw8sNLa9knQ" type="CommunicationPath_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_jZA8EbKoEeiqw8sNLa9knQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_i2Vs07KoEeiqw8sNLa9knQ" x="-1" y="59"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_i2VFwbKoEeiqw8sNLa9knQ"/>
+    <element xmi:type="uml:CommunicationPath" href="contoso-arch.uml#_i11WgLKoEeiqw8sNLa9knQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_i2VFwrKoEeiqw8sNLa9knQ" points="[1757, 130, -643984, -643984]$[1666, 230, -643984, -643984]$[1183, 291, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_i3KMMLKoEeiqw8sNLa9knQ" id="(0.52,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_i3KMMbKoEeiqw8sNLa9knQ" id="(1.0,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_pdfnALKoEeiqw8sNLa9knQ" type="CommunicationPath_Edge" source="_dC4gcLKoEeiqw8sNLa9knQ" target="_PoQHULKoEeiqw8sNLa9knQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_pdgOELKoEeiqw8sNLa9knQ" type="CommunicationPath_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_qFh3YLKoEeiqw8sNLa9knQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_pdgOEbKoEeiqw8sNLa9knQ" x="1" y="38"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_pdgOErKoEeiqw8sNLa9knQ" type="CommunicationPath_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_qFh3YbKoEeiqw8sNLa9knQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_pdgOE7KoEeiqw8sNLa9knQ" x="1" y="58"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_pdfnAbKoEeiqw8sNLa9knQ"/>
+    <element xmi:type="uml:CommunicationPath" href="contoso-arch.uml#_pdF-YLKoEeiqw8sNLa9knQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pdfnArKoEeiqw8sNLa9knQ" points="[917, 130, -643984, -643984]$[1007, 230, -643984, -643984]$[1102, 291, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_peJuULKoEeiqw8sNLa9knQ" id="(0.52,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_peJuUbKoEeiqw8sNLa9knQ" id="(0.4,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_xPgx2rKoEeiqw8sNLa9knQ" type="StereotypeCommentLink" source="_usCIcLKoEeiqw8sNLa9knQ" target="_xPgx1rKoEeiqw8sNLa9knQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_xPgx27KoEeiqw8sNLa9knQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_xPhY4LKoEeiqw8sNLa9knQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Device" href="contoso-arch.uml#_usATQLKoEeiqw8sNLa9knQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xPgx3LKoEeiqw8sNLa9knQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xPgx3bKoEeiqw8sNLa9knQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xPgx3rKoEeiqw8sNLa9knQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_x4p1cLKoEeiqw8sNLa9knQ" type="CommunicationPath_Edge" source="_usCIcLKoEeiqw8sNLa9knQ" target="_PoQHULKoEeiqw8sNLa9knQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_x4p1c7KoEeiqw8sNLa9knQ" type="CommunicationPath_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_x4p1dLKoEeiqw8sNLa9knQ" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_x4p1dbKoEeiqw8sNLa9knQ" type="CommunicationPath_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_x4p1drKoEeiqw8sNLa9knQ" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_x4p1cbKoEeiqw8sNLa9knQ"/>
+    <element xmi:type="uml:CommunicationPath" href="contoso-arch.uml#_x4SCALKoEeiqw8sNLa9knQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_x4p1crKoEeiqw8sNLa9knQ" points="[1536, 380, -643984, -643984]$[1209, 340, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_x5YOMLKoEeiqw8sNLa9knQ" id="(0.0,0.52)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_x5YOMbKoEeiqw8sNLa9knQ" id="(1.0,0.4)"/>
+  </edges>
+</notation:Diagram>

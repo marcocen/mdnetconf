@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Configurations="http://mdcms/schemas/Configurations/_PEmz4LJJEeiARJ50Y2vhkA/0" xmlns:Nodes="http://mdcms/schemas/Nodes/_PEdp8LJJEeiARJ50Y2vhkA/12" xmlns:Physical="http://mdcms/schemas/Physical/_PEiicLJJEeiARJ50Y2vhkA/8" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://mdcms/schemas/Configurations/_PEmz4LJJEeiARJ50Y2vhkA/0 mdcms.profile.uml#_PEoCAbJJEeiARJ50Y2vhkA http://mdcms/schemas/Nodes/_PEdp8LJJEeiARJ50Y2vhkA/12 mdcms.profile.uml#_PEffILJJEeiARJ50Y2vhkA http://mdcms/schemas/Physical/_PEiicLJJEeiARJ50Y2vhkA/8 mdcms.profile.uml#_PEjJgLJJEeiARJ50Y2vhkA">
+  <uml:Model xmi:id="_ZDxJILHwEeiNMIP2HF6eNg" name="testModel">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_ZNEPELHwEeiNMIP2HF6eNg">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Device" xmi:id="_cT1OQLJJEeiARJ50Y2vhkA" name="PCUnix120">
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_d-xtILJJEeiARJ50Y2vhkA" name="SQL">
+        <deployment xmi:type="uml:Deployment" xmi:id="_lFowMLJLEeiARJ50Y2vhkA" client="_d-xtILJJEeiARJ50Y2vhkA" supplier="_g3wscLJJEeiARJ50Y2vhkA" deployedArtifact="_g3wscLJJEeiARJ50Y2vhkA"/>
+        <deployment xmi:type="uml:Deployment" xmi:id="_mbYbILJLEeiARJ50Y2vhkA" client="_d-xtILJJEeiARJ50Y2vhkA" supplier="_je3msLJLEeiARJ50Y2vhkA" deployedArtifact="_je3msLJLEeiARJ50Y2vhkA"/>
+      </nestedNode>
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_9qcYMLJKEeiARJ50Y2vhkA" name="Ubuntu">
+        <deployment xmi:type="uml:Deployment" xmi:id="_MiRIELJLEeiARJ50Y2vhkA" client="_9qcYMLJKEeiARJ50Y2vhkA" supplier="_JWJKULJLEeiARJ50Y2vhkA" deployedArtifact="_JWJKULJLEeiARJ50Y2vhkA"/>
+      </nestedNode>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_g3wscLJJEeiARJ50Y2vhkA" name="DevelopmentDB" fileName=""/>
+    <packagedElement xmi:type="uml:Device" xmi:id="_oTNKULJJEeiARJ50Y2vhkA" name="PCUnix121">
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_t0S0ULJJEeiARJ50Y2vhkA" name="Firmware1"/>
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_xTAsALJLEeiARJ50Y2vhkA" name="Firewall1">
+        <deployment xmi:type="uml:Deployment" xmi:id="_36Qs0LJLEeiARJ50Y2vhkA" client="_xTAsALJLEeiARJ50Y2vhkA" supplier="_1OWgMLJLEeiARJ50Y2vhkA" deployedArtifact="_1OWgMLJLEeiARJ50Y2vhkA"/>
+      </nestedNode>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_JWJKULJLEeiARJ50Y2vhkA" name="Artifact10" fileName=""/>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_je3msLJLEeiARJ50Y2vhkA" name="ProductionDB" fileName=""/>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_1OWgMLJLEeiARJ50Y2vhkA" name="FirewallRule1" fileName=""/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_a-nHwLJJEeiARJ50Y2vhkA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_a-oV4LJJEeiARJ50Y2vhkA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a-oV4bJJEeiARJ50Y2vhkA" key="Version" value="0.0.31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a-oV4rJJEeiARJ50Y2vhkA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a-oV47JJEeiARJ50Y2vhkA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a-oV5LJJEeiARJ50Y2vhkA" key="Date" value="2018-09-06"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a-oV5bJJEeiARJ50Y2vhkA" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_a-nu0LJJEeiARJ50Y2vhkA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="mdcms.profile.uml#_PEamoLJJEeiARJ50Y2vhkA"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="mdcms.profile.uml#_nGsGwLHvEeiNMIP2HF6eNg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_a-oV5rJJEeiARJ50Y2vhkA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_a-o88LJJEeiARJ50Y2vhkA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a-o88bJJEeiARJ50Y2vhkA" key="Version" value="0.0.31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a-o88rJJEeiARJ50Y2vhkA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a-o887JJEeiARJ50Y2vhkA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a-o89LJJEeiARJ50Y2vhkA" key="Date" value="2018-09-06"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a-o89bJJEeiARJ50Y2vhkA" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_a-oV57JJEeiARJ50Y2vhkA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="mdcms.profile.uml#_PEffILJJEeiARJ50Y2vhkA"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="mdcms.profile.uml#_TxtPQLIUEeiNMIP2HF6eNg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_a-o89rJJEeiARJ50Y2vhkA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_a-o8-LJJEeiARJ50Y2vhkA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a-o8-bJJEeiARJ50Y2vhkA" key="Version" value="0.0.31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a-o8-rJJEeiARJ50Y2vhkA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a-o8-7JJEeiARJ50Y2vhkA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a-o8_LJJEeiARJ50Y2vhkA" key="Date" value="2018-09-06"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a-o8_bJJEeiARJ50Y2vhkA" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_a-o897JJEeiARJ50Y2vhkA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="mdcms.profile.uml#_PEjJgLJJEeiARJ50Y2vhkA"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="mdcms.profile.uml#_k5li8LIkEeiRorVD3xHyMg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_a-pkALJJEeiARJ50Y2vhkA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_a-pkArJJEeiARJ50Y2vhkA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a-pkA7JJEeiARJ50Y2vhkA" key="Version" value="0.0.31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a-pkBLJJEeiARJ50Y2vhkA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a-pkBbJJEeiARJ50Y2vhkA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a-pkBrJJEeiARJ50Y2vhkA" key="Date" value="2018-09-06"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a-pkB7JJEeiARJ50Y2vhkA" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_a-pkAbJJEeiARJ50Y2vhkA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="mdcms.profile.uml#_PEoCAbJJEeiARJ50Y2vhkA"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="mdcms.profile.uml#_8EMeALJIEeiARJ50Y2vhkA"/>
+    </profileApplication>
+  </uml:Model>
+  <Physical:PC xmi:id="_druOQLJJEeiARJ50Y2vhkA" base_Device="_cT1OQLJJEeiARJ50Y2vhkA"/>
+  <Nodes:MySQL xmi:id="_gMI8kLJJEeiARJ50Y2vhkA" base_ExecutionEnvironment="_d-xtILJJEeiARJ50Y2vhkA"/>
+  <Configurations:Database xmi:id="_iQh2MLJJEeiARJ50Y2vhkA" base_Artifact="_g3wscLJJEeiARJ50Y2vhkA"/>
+  <Physical:PC xmi:id="_tbhH8LJJEeiARJ50Y2vhkA" base_Device="_oTNKULJJEeiARJ50Y2vhkA"/>
+  <Nodes:Firmware xmi:id="_vFAOQLJJEeiARJ50Y2vhkA" base_ExecutionEnvironment="_t0S0ULJJEeiARJ50Y2vhkA"/>
+  <Nodes:OperatingSystem xmi:id="_GGhzsLJLEeiARJ50Y2vhkA" base_ExecutionEnvironment="_9qcYMLJKEeiARJ50Y2vhkA"/>
+  <Configurations:File xmi:id="_L1gvwLJLEeiARJ50Y2vhkA" base_Artifact="_JWJKULJLEeiARJ50Y2vhkA"/>
+  <Configurations:Database xmi:id="_qJ8-oLJLEeiARJ50Y2vhkA" base_Artifact="_je3msLJLEeiARJ50Y2vhkA"/>
+  <Nodes:Firewall xmi:id="_ymqFMLJLEeiARJ50Y2vhkA" base_ExecutionEnvironment="_xTAsALJLEeiARJ50Y2vhkA"/>
+  <Configurations:FirewallRule xmi:id="_3RLTkLJLEeiARJ50Y2vhkA" base_Artifact="_1OWgMLJLEeiARJ50Y2vhkA"/>
+</xmi:XMI>
