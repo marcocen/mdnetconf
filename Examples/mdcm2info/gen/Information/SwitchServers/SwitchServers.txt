@@ -1,0 +1,8 @@
+Location: Room 001
+Manufacturer: Cisco
+Model: Catalyst 9300
+Ports: 48
+Speed: 10 Gbps
+Throughput: 77.3 Mpps
+Power (W): 60w
+

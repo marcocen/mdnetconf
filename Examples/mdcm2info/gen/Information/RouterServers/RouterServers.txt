@@ -1,0 +1,8 @@
+IP: 192.1.2.1
+Location: Room 001
+Manufacturer: Cisco
+Model: ISR 4221
+Throughput: 10 Gbps
+Ports: 0
+Network Interface Slots: 0
+Service Module Slots: 3

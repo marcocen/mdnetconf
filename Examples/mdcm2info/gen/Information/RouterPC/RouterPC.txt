@@ -1,0 +1,8 @@
+IP: 192.1.1.1
+Location: Room 103
+Manufacturer: Cisco
+Model: ISR 4221
+Throughput: 1-2 Gbps
+Ports: 0
+Network Interface Slots: 0
+Service Module Slots: 3

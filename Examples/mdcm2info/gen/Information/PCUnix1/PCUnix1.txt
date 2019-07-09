@@ -1,0 +1,8 @@
+Processor: Intel i3 8100
+Architecture: x64
+Disk Type: HDD 1TB
+Disk Space: 850GB
+RAM: 8GB DDR4
+Motherboard: Gigabyte H370M
+Graphic Card: Intel HD 4600
+

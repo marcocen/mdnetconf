@@ -1,0 +1,6 @@
+Processor: Intel i5 8400
+Architecture: x64
+Disk Type: HDD 1 TB
+RAM: 8GB DDR4
+Graphic Card: NVidia GTX 1050 3GB
+

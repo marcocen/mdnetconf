@@ -1,0 +1,4 @@
+Processor: Intel i5 8400
+Architecture: x64
+RAM: 
+

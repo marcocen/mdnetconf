@@ -1,0 +1,7 @@
+Processor: Intel i3 8100
+Architecture: x64
+Disk Type: HDD 512 GB
+Disk Space: 250 GB
+RAM: 8GB DDR4
+Motherboard: 
+

@@ -1,0 +1,6 @@
+Processor: Intel(R) Xeon(R) CPU E5-2630 v3
+Architecture: x64
+Disk Type: SSD 1TB
+RAM: 64 GB DD4
+Rack: 1
+

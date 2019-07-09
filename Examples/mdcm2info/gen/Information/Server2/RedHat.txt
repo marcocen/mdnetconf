@@ -1,0 +1,4 @@
+Distribution: Red Hat Enterprise Linux
+Version: 4.0
+Architecture: x64
+

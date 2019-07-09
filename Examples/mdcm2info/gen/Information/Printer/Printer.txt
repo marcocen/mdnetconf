@@ -1,0 +1,6 @@
+Type: Printer
+IP: 192.1.1.100
+Location: Room 103
+MAC: 00-14-22-01-01-01
+Manufacturer: HP
+

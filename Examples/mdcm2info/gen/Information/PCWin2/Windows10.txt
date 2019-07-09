@@ -1,0 +1,4 @@
+Distribution: Windows 10
+Version: 1803
+Architecture: x64
+
