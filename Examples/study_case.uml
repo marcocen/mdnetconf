@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mdcms="http://www.fing.edu.uy/mdcms" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_Y0Ew4C1uEemUcNdFkzOxjw" name="study_case">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_ZEyGYC1uEemUcNdFkzOxjw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Device" xmi:id="_aabDoC1uEemUcNdFkzOxjw" name="PCUnix1">
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_EYjD0C5eEemEOvrx9gid4w" name="Ubuntu"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Device" xmi:id="_ioU5MC1uEemUcNdFkzOxjw" name="PCUnix2">
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_7U4q8C5dEemEOvrx9gid4w" name="Ubuntu"/>
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_WpFF0C5nEemEOvrx9gid4w" name="mydb2">
+        <deployment xmi:type="uml:Deployment" xmi:id="_Jvx1wEkOEemwW7JQ_lCpNw" client="_WpFF0C5nEemEOvrx9gid4w" supplier="_FhOxsEkOEemwW7JQ_lCpNw" deployedArtifact="_FhOxsEkOEemwW7JQ_lCpNw"/>
+      </nestedNode>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Device" xmi:id="_jIWdEC1uEemUcNdFkzOxjw" name="PCWin1">
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_bXiq8C5lEemEOvrx9gid4w" name="Windows10"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Device" xmi:id="_nFyjAC1uEemUcNdFkzOxjw" name="PCWin2">
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_QbbQwC5nEemEOvrx9gid4w" name="Windows10"/>
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_SoJnAC5nEemEOvrx9gid4w" name="mydb2">
+        <deployment xmi:type="uml:Deployment" xmi:id="_PKACwEkOEemwW7JQ_lCpNw" client="_SoJnAC5nEemEOvrx9gid4w" supplier="_OQXFAEkOEemwW7JQ_lCpNw" deployedArtifact="_OQXFAEkOEemwW7JQ_lCpNw"/>
+      </nestedNode>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Device" xmi:id="_psSEIC1uEemUcNdFkzOxjw" name="SwitchUnix"/>
+    <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_sTv1oC1uEemUcNdFkzOxjw" memberEnd="_sTyR4C1uEemUcNdFkzOxjw _sTy48C1uEemUcNdFkzOxjw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sTxq0C1uEemUcNdFkzOxjw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sTxq0S1uEemUcNdFkzOxjw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_sTyR4C1uEemUcNdFkzOxjw" name="switch1" type="_psSEIC1uEemUcNdFkzOxjw" association="_sTv1oC1uEemUcNdFkzOxjw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_sTy48C1uEemUcNdFkzOxjw" name="pcunix1" type="_aabDoC1uEemUcNdFkzOxjw" association="_sTv1oC1uEemUcNdFkzOxjw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_tE17YC1uEemUcNdFkzOxjw" memberEnd="_tE2ici1uEemUcNdFkzOxjw _tE2icy1uEemUcNdFkzOxjw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tE2icC1uEemUcNdFkzOxjw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tE2icS1uEemUcNdFkzOxjw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_tE2ici1uEemUcNdFkzOxjw" name="switch1" type="_psSEIC1uEemUcNdFkzOxjw" association="_tE17YC1uEemUcNdFkzOxjw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_tE2icy1uEemUcNdFkzOxjw" name="pcunix2" type="_ioU5MC1uEemUcNdFkzOxjw" association="_tE17YC1uEemUcNdFkzOxjw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_t_xSkC1uEemUcNdFkzOxjw" memberEnd="_t_ygsC1uEemUcNdFkzOxjw _t_ygsS1uEemUcNdFkzOxjw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_t_xSkS1uEemUcNdFkzOxjw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_t_xSki1uEemUcNdFkzOxjw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_t_ygsC1uEemUcNdFkzOxjw" name="switch1" type="_xMyoMC1uEemUcNdFkzOxjw" association="_t_xSkC1uEemUcNdFkzOxjw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_t_ygsS1uEemUcNdFkzOxjw" name="pcwin1" type="_jIWdEC1uEemUcNdFkzOxjw" association="_t_xSkC1uEemUcNdFkzOxjw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_u0Ay8C1uEemUcNdFkzOxjw" memberEnd="_u0BaAi1uEemUcNdFkzOxjw _u0CBEC1uEemUcNdFkzOxjw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_u0BaAC1uEemUcNdFkzOxjw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_u0BaAS1uEemUcNdFkzOxjw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_u0BaAi1uEemUcNdFkzOxjw" name="switch1" type="_xMyoMC1uEemUcNdFkzOxjw" association="_u0Ay8C1uEemUcNdFkzOxjw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_u0CBEC1uEemUcNdFkzOxjw" name="pcwin2" type="_nFyjAC1uEemUcNdFkzOxjw" association="_u0Ay8C1uEemUcNdFkzOxjw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Device" xmi:id="_xMyoMC1uEemUcNdFkzOxjw" name="SwitchWin"/>
+    <packagedElement xmi:type="uml:Device" xmi:id="_3ENukC1uEemUcNdFkzOxjw" name="RouterPC">
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_f56_EC5nEemEOvrx9gid4w" name="FWRouterPC"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_52QYYC1uEemUcNdFkzOxjw" memberEnd="_52RmgC1uEemUcNdFkzOxjw _52RmgS1uEemUcNdFkzOxjw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_52Q_cC1uEemUcNdFkzOxjw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_52Q_cS1uEemUcNdFkzOxjw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_52RmgC1uEemUcNdFkzOxjw" name="router1" type="_3ENukC1uEemUcNdFkzOxjw" association="_52QYYC1uEemUcNdFkzOxjw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_52RmgS1uEemUcNdFkzOxjw" name="switch2" type="_xMyoMC1uEemUcNdFkzOxjw" association="_52QYYC1uEemUcNdFkzOxjw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_7eN0sC1uEemUcNdFkzOxjw" memberEnd="_7eObwS1uEemUcNdFkzOxjw _7eObwi1uEemUcNdFkzOxjw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7eN0sS1uEemUcNdFkzOxjw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7eObwC1uEemUcNdFkzOxjw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_7eObwS1uEemUcNdFkzOxjw" name="router1" type="_3ENukC1uEemUcNdFkzOxjw" association="_7eN0sC1uEemUcNdFkzOxjw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_7eObwi1uEemUcNdFkzOxjw" name="switch1" type="_psSEIC1uEemUcNdFkzOxjw" association="_7eN0sC1uEemUcNdFkzOxjw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Device" xmi:id="_-a3MAC1uEemUcNdFkzOxjw" name="RouterServers">
+      <deployment xmi:type="uml:Deployment" xmi:id="_lszhYC1vEemUcNdFkzOxjw" client="_-a3MAC1uEemUcNdFkzOxjw" supplier="_k_qHgC1vEemUcNdFkzOxjw" deployedArtifact="_k_qHgC1vEemUcNdFkzOxjw"/>
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_euPz0C1vEemUcNdFkzOxjw" name="FirmwareRS"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Device" xmi:id="__z1xIC1uEemUcNdFkzOxjw" name="SwitchServers"/>
+    <packagedElement xmi:type="uml:Device" xmi:id="_Eh9tIC1vEemUcNdFkzOxjw" name="Server1">
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_xhRTcC5rEemEOvrx9gid4w" name="Apache">
+        <deployment xmi:type="uml:Deployment" xmi:id="_gGFJYEkOEemwW7JQ_lCpNw" client="_xhRTcC5rEemEOvrx9gid4w" supplier="_eRx6MEkOEemwW7JQ_lCpNw" deployedArtifact="_eRx6MEkOEemwW7JQ_lCpNw"/>
+      </nestedNode>
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_z5qHIC5rEemEOvrx9gid4w" name="Tomcat7">
+        <deployment xmi:type="uml:Deployment" xmi:id="_YaT7QEk0EemwW7JQ_lCpNw" client="_z5qHIC5rEemEOvrx9gid4w" supplier="_qvFIYEkOEemwW7JQ_lCpNw" deployedArtifact="_qvFIYEkOEemwW7JQ_lCpNw"/>
+      </nestedNode>
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_329qMC5rEemEOvrx9gid4w" name="mydbPG">
+        <deployment xmi:type="uml:Deployment" xmi:id="_lnN2sEkOEemwW7JQ_lCpNw" client="_329qMC5rEemEOvrx9gid4w" supplier="_i3zDEEkOEemwW7JQ_lCpNw" deployedArtifact="_i3zDEEkOEemwW7JQ_lCpNw"/>
+      </nestedNode>
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_C8vr0C5sEemEOvrx9gid4w" name="mydbMySQL">
+        <deployment xmi:type="uml:Deployment" xmi:id="_Z9dJAEk0EemwW7JQ_lCpNw" client="_C8vr0C5sEemEOvrx9gid4w" supplier="_ntaHIEkOEemwW7JQ_lCpNw" deployedArtifact="_ntaHIEkOEemwW7JQ_lCpNw"/>
+      </nestedNode>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Device" xmi:id="_GqSEgC1vEemUcNdFkzOxjw" name="Server3">
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_9vT9oC5rEemEOvrx9gid4w" name="Apache">
+        <deployment xmi:type="uml:Deployment" xmi:id="_hBDuoEk0EemwW7JQ_lCpNw" client="_9vT9oC5rEemEOvrx9gid4w" supplier="_7VdEwEkOEemwW7JQ_lCpNw" deployedArtifact="_7VdEwEkOEemwW7JQ_lCpNw"/>
+      </nestedNode>
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="__t8NgC5rEemEOvrx9gid4w" name="mydb">
+        <deployment xmi:type="uml:Deployment" xmi:id="_h8TO4Ek0EemwW7JQ_lCpNw" client="__t8NgC5rEemEOvrx9gid4w" supplier="_88Z0cEkOEemwW7JQ_lCpNw" deployedArtifact="_88Z0cEkOEemwW7JQ_lCpNw"/>
+      </nestedNode>
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_AC5pgC5vEemEOvrx9gid4w" name="Windows2012">
+        <deployment xmi:type="uml:Deployment" xmi:id="_l1XyMEk0EemwW7JQ_lCpNw" client="_AC5pgC5vEemEOvrx9gid4w" supplier="_jf6WsEk0EemwW7JQ_lCpNw" deployedArtifact="_jf6WsEk0EemwW7JQ_lCpNw"/>
+      </nestedNode>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Device" xmi:id="_Hj3-8C1vEemUcNdFkzOxjw" name="Server2">
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_5mnC4C5rEemEOvrx9gid4w" name="Firewall">
+        <deployment xmi:type="uml:Deployment" xmi:id="_enFmkEk0EemwW7JQ_lCpNw" client="_5mnC4C5rEemEOvrx9gid4w" supplier="_1us3oEkOEemwW7JQ_lCpNw" deployedArtifact="_1us3oEkOEemwW7JQ_lCpNw"/>
+      </nestedNode>
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_7TYGsC5rEemEOvrx9gid4w" name="Java">
+        <deployment xmi:type="uml:Deployment" xmi:id="_dhqPkEk0EemwW7JQ_lCpNw" client="_7TYGsC5rEemEOvrx9gid4w" supplier="_yrXpgEkOEemwW7JQ_lCpNw" deployedArtifact="_yrXpgEkOEemwW7JQ_lCpNw"/>
+      </nestedNode>
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_8mMZcC5rEemEOvrx9gid4w" name="mydb">
+        <deployment xmi:type="uml:Deployment" xmi:id="_foNFUEk0EemwW7JQ_lCpNw" client="_8mMZcC5rEemEOvrx9gid4w" supplier="_3OeoUEkOEemwW7JQ_lCpNw" deployedArtifact="_3OeoUEkOEemwW7JQ_lCpNw"/>
+        <deployment xmi:type="uml:Deployment" xmi:id="_V_t8cErGEemHX5MUfEzgAQ" client="_8mMZcC5rEemEOvrx9gid4w" supplier="_UGKZ0ErGEemHX5MUfEzgAQ" deployedArtifact="_UGKZ0ErGEemHX5MUfEzgAQ"/>
+      </nestedNode>
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_NW2L0C5vEemEOvrx9gid4w" name="RedHat">
+        <deployment xmi:type="uml:Deployment" xmi:id="_XUiYIEq3EemHX5MUfEzgAQ" client="_NW2L0C5vEemEOvrx9gid4w" supplier="_SmG6IEq3EemHX5MUfEzgAQ" deployedArtifact="_SmG6IEq3EemHX5MUfEzgAQ"/>
+      </nestedNode>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_Mc7_oC1vEemUcNdFkzOxjw" memberEnd="_Mc7_oy1vEemUcNdFkzOxjw _Mc8msC1vEemUcNdFkzOxjw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Mc7_oS1vEemUcNdFkzOxjw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Mc7_oi1vEemUcNdFkzOxjw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Mc7_oy1vEemUcNdFkzOxjw" name="switchservers" type="__z1xIC1uEemUcNdFkzOxjw" association="_Mc7_oC1vEemUcNdFkzOxjw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Mc8msC1vEemUcNdFkzOxjw" name="server1" type="_Eh9tIC1vEemUcNdFkzOxjw" association="_Mc7_oC1vEemUcNdFkzOxjw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_M34PMC1vEemUcNdFkzOxjw" memberEnd="_M342Qi1vEemUcNdFkzOxjw _M342Qy1vEemUcNdFkzOxjw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_M342QC1vEemUcNdFkzOxjw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_M342QS1vEemUcNdFkzOxjw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_M342Qi1vEemUcNdFkzOxjw" name="switchservers" type="__z1xIC1uEemUcNdFkzOxjw" association="_M34PMC1vEemUcNdFkzOxjw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_M342Qy1vEemUcNdFkzOxjw" name="server2" type="_Hj3-8C1vEemUcNdFkzOxjw" association="_M34PMC1vEemUcNdFkzOxjw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_NdhS4C1vEemUcNdFkzOxjw" memberEnd="_NdhS4y1vEemUcNdFkzOxjw _Ndh58C1vEemUcNdFkzOxjw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NdhS4S1vEemUcNdFkzOxjw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NdhS4i1vEemUcNdFkzOxjw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_NdhS4y1vEemUcNdFkzOxjw" name="switchservers" type="__z1xIC1uEemUcNdFkzOxjw" association="_NdhS4C1vEemUcNdFkzOxjw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Ndh58C1vEemUcNdFkzOxjw" name="server3" type="_GqSEgC1vEemUcNdFkzOxjw" association="_NdhS4C1vEemUcNdFkzOxjw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_OCVQIC1vEemUcNdFkzOxjw" memberEnd="_OCV3Mi1vEemUcNdFkzOxjw _OCV3My1vEemUcNdFkzOxjw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OCV3MC1vEemUcNdFkzOxjw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OCV3MS1vEemUcNdFkzOxjw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_OCV3Mi1vEemUcNdFkzOxjw" name="switchservers" type="__z1xIC1uEemUcNdFkzOxjw" association="_OCVQIC1vEemUcNdFkzOxjw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_OCV3My1vEemUcNdFkzOxjw" name="routerservers" type="_-a3MAC1uEemUcNdFkzOxjw" association="_OCVQIC1vEemUcNdFkzOxjw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_OnE78C1vEemUcNdFkzOxjw" memberEnd="_OnE78y1vEemUcNdFkzOxjw _OnFjAC1vEemUcNdFkzOxjw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OnE78S1vEemUcNdFkzOxjw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OnE78i1vEemUcNdFkzOxjw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_OnE78y1vEemUcNdFkzOxjw" name="routerpc" type="_3ENukC1uEemUcNdFkzOxjw" association="_OnE78C1vEemUcNdFkzOxjw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_OnFjAC1vEemUcNdFkzOxjw" name="routerservers" type="_-a3MAC1uEemUcNdFkzOxjw" association="_OnE78C1vEemUcNdFkzOxjw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Device" xmi:id="_QtrcEC1vEemUcNdFkzOxjw" name="Printer">
+      <deployment xmi:type="uml:Deployment" xmi:id="_r6_h8C1vEemUcNdFkzOxjw" client="_QtrcEC1vEemUcNdFkzOxjw _Y0Ew4C1uEemUcNdFkzOxjw" supplier="_pDZCsC1vEemUcNdFkzOxjw" deployedArtifact="_pDZCsC1vEemUcNdFkzOxjw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_TN4H8C1vEemUcNdFkzOxjw" memberEnd="_TN4vAi1vEemUcNdFkzOxjw _TN4vAy1vEemUcNdFkzOxjw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TN4vAC1vEemUcNdFkzOxjw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TN4vAS1vEemUcNdFkzOxjw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_TN4vAi1vEemUcNdFkzOxjw" name="switchunix" type="_psSEIC1uEemUcNdFkzOxjw" association="_TN4H8C1vEemUcNdFkzOxjw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_TN4vAy1vEemUcNdFkzOxjw" name="printer" type="_QtrcEC1vEemUcNdFkzOxjw" association="_TN4H8C1vEemUcNdFkzOxjw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_k_qHgC1vEemUcNdFkzOxjw" name="RouterInfo" fileName=""/>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_pDZCsC1vEemUcNdFkzOxjw" name="PrinterConfig" fileName=""/>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_FhOxsEkOEemwW7JQ_lCpNw" name="PCUnix2DB" fileName=""/>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_OQXFAEkOEemwW7JQ_lCpNw" name="PCWin2DB" fileName=""/>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_eRx6MEkOEemwW7JQ_lCpNw" name="S1Apache" fileName=""/>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_i3zDEEkOEemwW7JQ_lCpNw" name="S1PGdb" fileName=""/>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_ntaHIEkOEemwW7JQ_lCpNw" name="S1MySQLdb" fileName=""/>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_qvFIYEkOEemwW7JQ_lCpNw" name="S1Tomcat7" fileName=""/>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_yrXpgEkOEemwW7JQ_lCpNw" name="S2jdk8" fileName=""/>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_1us3oEkOEemwW7JQ_lCpNw" name="S2FirewallRule1" fileName=""/>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_3OeoUEkOEemwW7JQ_lCpNw" name="S2PGdb" fileName=""/>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_7VdEwEkOEemwW7JQ_lCpNw" name="S3Apache" fileName=""/>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_88Z0cEkOEemwW7JQ_lCpNw" name="S3MySQLDB" fileName=""/>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_jf6WsEk0EemwW7JQ_lCpNw" name="Puppet description" fileName=""/>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_SmG6IEq3EemHX5MUfEzgAQ" name="CheckDNSFile" fileName=""/>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_UGKZ0ErGEemHX5MUfEzgAQ" name="S2FirewallRule2" fileName=""/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ZEnuUC1uEemUcNdFkzOxjw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZEpjgC1uEemUcNdFkzOxjw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.fing.edu.uy/mdcms#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://mdcms/mdcms.profile.uml#_nGsGwLHvEeiNMIP2HF6eNg"/>
+    </profileApplication>
+  </uml:Model>
+  <mdcms:Physical xmi:id="_acpRMC1uEemUcNdFkzOxjw" base_Device="_aabDoC1uEemUcNdFkzOxjw"/>
+  <mdcms:PC xmi:id="_fQ6RcC1uEemUcNdFkzOxjw" base_Device="_aabDoC1uEemUcNdFkzOxjw" Location="Room 103" IP="192.1.1.2" MAC="00-00-00-01-01-02" Manufacturer="Dell" Processor="Intel i3 8100" Architecture="x64" DiskType="HDD 1TB" DiskSpace="850GB" Ram="8GB DDR4" Motherboard="Gigabyte H370M" GraphicCard="Intel HD 4600"/>
+  <mdcms:Physical xmi:id="_ioU5MS1uEemUcNdFkzOxjw" base_Device="_ioU5MC1uEemUcNdFkzOxjw"/>
+  <mdcms:PC xmi:id="_ioYjkC1uEemUcNdFkzOxjw" base_Device="_ioU5MC1uEemUcNdFkzOxjw" Location="Room 103" IP="192.1.1.3" Manufacturer="Dell" Processor="Intel i3 8100" Architecture="x64" DiskType="HDD 512 GB" DiskSpace="250 GB" Ram="8GB DDR4" Motherboard=""/>
+  <mdcms:Physical xmi:id="_jIWdES1uEemUcNdFkzOxjw" base_Device="_jIWdEC1uEemUcNdFkzOxjw"/>
+  <mdcms:PC xmi:id="_jIY5UC1uEemUcNdFkzOxjw" base_Device="_jIWdEC1uEemUcNdFkzOxjw" Location="Room 103" IP="192.1.1.4" Manufacturer="Dell" Processor="Intel i5 8400" Architecture="x64" DiskType="HDD 1 TB" Ram="8GB DDR4" GraphicCard="NVidia GTX 1050 3GB"/>
+  <mdcms:Physical xmi:id="_nFzKEC1uEemUcNdFkzOxjw" base_Device="_nFyjAC1uEemUcNdFkzOxjw"/>
+  <mdcms:PC xmi:id="_nF1mUC1uEemUcNdFkzOxjw" base_Device="_nFyjAC1uEemUcNdFkzOxjw" Location="Room 103" IP="192.1.1.5" MAC="00-00-00-01-01-05" Processor="Intel i5 8400" Architecture="x64" Ram=""/>
+  <mdcms:Physical xmi:id="_psSEIS1uEemUcNdFkzOxjw" base_Device="_psSEIC1uEemUcNdFkzOxjw"/>
+  <mdcms:Switch xmi:id="_rX0Y4C1uEemUcNdFkzOxjw" base_Device="_psSEIC1uEemUcNdFkzOxjw" Location="Room 103" Manufacturer="Cisco" Model="Catalyst 9300" Throughput="77.3 Mpps" Ports="48" Speed="10 Gbps" PowerW="60w"/>
+  <mdcms:Physical xmi:id="_xMyoMS1uEemUcNdFkzOxjw" base_Device="_xMyoMC1uEemUcNdFkzOxjw"/>
+  <mdcms:Switch xmi:id="_xM1EdC1uEemUcNdFkzOxjw" base_Device="_xMyoMC1uEemUcNdFkzOxjw" Location="Room 103" Manufacturer="Cisco" Model="Catalyst 9300" Throughput="77.3 Mpps" Ports="48" Speed="10 GB" PowerW="60w"/>
+  <mdcms:Physical xmi:id="_3ENukS1uEemUcNdFkzOxjw" base_Device="_3ENukC1uEemUcNdFkzOxjw"/>
+  <mdcms:Router xmi:id="_42LbcC1uEemUcNdFkzOxjw" base_Device="_3ENukC1uEemUcNdFkzOxjw" Location="Room 103" IP="192.1.1.1" Manufacturer="Cisco" Model="ISR 4221" Throughput="1-2 Gbps" ServiceModuleSlots="3"/>
+  <mdcms:Physical xmi:id="_-a3MAS1uEemUcNdFkzOxjw" base_Device="_-a3MAC1uEemUcNdFkzOxjw"/>
+  <mdcms:Physical xmi:id="__z2YMC1uEemUcNdFkzOxjw" base_Device="__z1xIC1uEemUcNdFkzOxjw" Location="Room 103"/>
+  <mdcms:Physical xmi:id="_Eh9tIS1vEemUcNdFkzOxjw" base_Device="_Eh9tIC1vEemUcNdFkzOxjw"/>
+  <mdcms:Server xmi:id="_GJcoUC1vEemUcNdFkzOxjw" base_Device="_Eh9tIC1vEemUcNdFkzOxjw" Location="Room 001" IP="192.1.2.2" Manufacturer="IBM" Processor="Intel(R) Xeon(R) CPU E5-2630 v3" Architecture="x64" DiskType="SSD 1TB" Ram="64 GB DD4" Rack="1"/>
+  <mdcms:Physical xmi:id="_GqSEgS1vEemUcNdFkzOxjw" base_Device="_GqSEgC1vEemUcNdFkzOxjw"/>
+  <mdcms:Server xmi:id="_GqUgwC1vEemUcNdFkzOxjw" base_Device="_GqSEgC1vEemUcNdFkzOxjw" Location="Room 002" IP="192.1.2.4" Manufacturer="IBM" Processor="Intel(R) Xeon(R) CPU E5-2630 v3" Architecture="x64" DiskType="SSD 1TB" Ram="64 GB DD4" Rack="1"/>
+  <mdcms:Physical xmi:id="_Hj3-8S1vEemUcNdFkzOxjw" base_Device="_Hj3-8C1vEemUcNdFkzOxjw"/>
+  <mdcms:Server xmi:id="_Hj7CQC1vEemUcNdFkzOxjw" base_Device="_Hj3-8C1vEemUcNdFkzOxjw" Location="Room 001" IP="192.1.2.3" Manufacturer="IBM" Processor="Intel(R) Xeon(R) CPU E5-2630 v3" DiskType="SSD 1TB" Ram="64 GB DD4" Rack="1"/>
+  <mdcms:Physical xmi:id="_QtrcES1vEemUcNdFkzOxjw" base_Device="_QtrcEC1vEemUcNdFkzOxjw"/>
+  <mdcms:Peripheral xmi:id="_SzbnoC1vEemUcNdFkzOxjw" base_Device="_QtrcEC1vEemUcNdFkzOxjw" Location="Room 103" IP="192.1.1.100" MAC="00-14-22-01-01-01" Manufacturer="HP" Type="Printer"/>
+  <mdcms:Logical xmi:id="_euQa4C1vEemUcNdFkzOxjw" base_ExecutionEnvironment="_euPz0C1vEemUcNdFkzOxjw"/>
+  <mdcms:Firmware xmi:id="_j4QakC1vEemUcNdFkzOxjw" base_ExecutionEnvironment="_euPz0C1vEemUcNdFkzOxjw" Type="Router" Version="1.14"/>
+  <mdcms:Configuration xmi:id="_k_qukC1vEemUcNdFkzOxjw" base_Artifact="_k_qHgC1vEemUcNdFkzOxjw"/>
+  <mdcms:FreeForm xmi:id="_mjZLIC1vEemUcNdFkzOxjw" base_Artifact="_k_qHgC1vEemUcNdFkzOxjw" Description="Router with Firewall enabled"/>
+  <mdcms:Configuration xmi:id="_pDZCsS1vEemUcNdFkzOxjw" base_Artifact="_pDZCsC1vEemUcNdFkzOxjw"/>
+  <mdcms:FreeForm xmi:id="_qznDIC1vEemUcNdFkzOxjw" base_Artifact="_pDZCsC1vEemUcNdFkzOxjw" Description="This printer uses toner cartridges"/>
+  <mdcms:Logical xmi:id="_7YQvEC5dEemEOvrx9gid4w" base_ExecutionEnvironment="_7U4q8C5dEemEOvrx9gid4w"/>
+  <mdcms:Logical xmi:id="_EYjq4C5eEemEOvrx9gid4w" base_ExecutionEnvironment="_EYjD0C5eEemEOvrx9gid4w"/>
+  <mdcms:OperatingSystem xmi:id="_IBkY8C5eEemEOvrx9gid4w" base_ExecutionEnvironment="_EYjD0C5eEemEOvrx9gid4w" Distribution="Ubuntu" Version="14.04" Architecture="x64"/>
+  <mdcms:OperatingSystem xmi:id="_I023EC5eEemEOvrx9gid4w" base_ExecutionEnvironment="_7U4q8C5dEemEOvrx9gid4w" Distribution="Ubuntu" Version="14.04" Architecture="x64"/>
+  <mdcms:Logical xmi:id="_bXiq8S5lEemEOvrx9gid4w" base_ExecutionEnvironment="_bXiq8C5lEemEOvrx9gid4w"/>
+  <mdcms:Logical xmi:id="_Qbb30C5nEemEOvrx9gid4w" base_ExecutionEnvironment="_QbbQwC5nEemEOvrx9gid4w"/>
+  <mdcms:Logical xmi:id="_SoJnAS5nEemEOvrx9gid4w" base_ExecutionEnvironment="_SoJnAC5nEemEOvrx9gid4w"/>
+  <mdcms:MySQL xmi:id="_V9l40C5nEemEOvrx9gid4w" base_ExecutionEnvironment="_SoJnAC5nEemEOvrx9gid4w" PackageName="Percona-Server-server-57" PackageVersion="5.7.11-4.1.el7" RootPassword="PutYourOwnPwdHere"/>
+  <mdcms:Logical xmi:id="_WpFs4C5nEemEOvrx9gid4w" base_ExecutionEnvironment="_WpFF0C5nEemEOvrx9gid4w"/>
+  <mdcms:PostgreSQL xmi:id="_af4_UC5nEemEOvrx9gid4w" base_ExecutionEnvironment="_WpFF0C5nEemEOvrx9gid4w" Version="9.2" Encoding="UTF-8" Locale="en_US.UTF-8"/>
+  <mdcms:Logical xmi:id="_f58NMC5nEemEOvrx9gid4w" base_ExecutionEnvironment="_f56_EC5nEemEOvrx9gid4w"/>
+  <mdcms:Firmware xmi:id="_igAQgC5nEemEOvrx9gid4w" base_ExecutionEnvironment="_f56_EC5nEemEOvrx9gid4w" Type="Router" Version="1.14"/>
+  <mdcms:Logical xmi:id="_xhRTcS5rEemEOvrx9gid4w" base_ExecutionEnvironment="_xhRTcC5rEemEOvrx9gid4w"/>
+  <mdcms:Apache xmi:id="_zX8hMC5rEemEOvrx9gid4w" base_ExecutionEnvironment="_xhRTcC5rEemEOvrx9gid4w" Version="2.2" ServerName="www.example.com" ConfigDir="/etc/apache2" Docroot="/var/www/html" Logroot="/var/log/apache2" LibPath="/usr/lib/apache2/modules" VhostDir="/etc/apache2/sites-available"/>
+  <mdcms:Logical xmi:id="_z5qHIS5rEemEOvrx9gid4w" base_ExecutionEnvironment="_z5qHIC5rEemEOvrx9gid4w"/>
+  <mdcms:Tomcat xmi:id="_1hXEwC5rEemEOvrx9gid4w" base_ExecutionEnvironment="_z5qHIC5rEemEOvrx9gid4w" SourceURL="https://www-us.apache.org/dist/tomcat/tomcat-7/v7.0.x/bin/apache-tomcat-7.0.x.tar.gz"/>
+  <mdcms:Logical xmi:id="_329qMS5rEemEOvrx9gid4w" base_ExecutionEnvironment="_329qMC5rEemEOvrx9gid4w"/>
+  <mdcms:PostgreSQL xmi:id="_4vHaMC5rEemEOvrx9gid4w" base_ExecutionEnvironment="_329qMC5rEemEOvrx9gid4w" Version="9.2" Encoding="UTF-8" Locale="en_US.UTF-8"/>
+  <mdcms:Logical xmi:id="_5mnp8C5rEemEOvrx9gid4w" base_ExecutionEnvironment="_5mnC4C5rEemEOvrx9gid4w"/>
+  <mdcms:Firewall xmi:id="_630MEC5rEemEOvrx9gid4w" base_ExecutionEnvironment="_5mnC4C5rEemEOvrx9gid4w"/>
+  <mdcms:Logical xmi:id="_7TYGsS5rEemEOvrx9gid4w" base_ExecutionEnvironment="_7TYGsC5rEemEOvrx9gid4w"/>
+  <mdcms:Java xmi:id="_8Cz_kC5rEemEOvrx9gid4w" base_ExecutionEnvironment="_7TYGsC5rEemEOvrx9gid4w" Distribution="jdk" Package="java-1.8.0-openjdk-devel"/>
+  <mdcms:Logical xmi:id="_8mMZcS5rEemEOvrx9gid4w" base_ExecutionEnvironment="_8mMZcC5rEemEOvrx9gid4w"/>
+  <mdcms:PostgreSQL xmi:id="_9YLQAC5rEemEOvrx9gid4w" base_ExecutionEnvironment="_8mMZcC5rEemEOvrx9gid4w" Version="9.2"/>
+  <mdcms:Logical xmi:id="_9vT9oS5rEemEOvrx9gid4w" base_ExecutionEnvironment="_9vT9oC5rEemEOvrx9gid4w"/>
+  <mdcms:Apache xmi:id="_-48fMC5rEemEOvrx9gid4w" base_ExecutionEnvironment="_9vT9oC5rEemEOvrx9gid4w" Version="2.2" ServerName="www.webserver.com" ConfigDir="/etc/apache" Docroot="/var/www/html" Logroot="/var/log/apache" VhostDir="/etc/apache2/sites-available"/>
+  <mdcms:Logical xmi:id="__t8NgS5rEemEOvrx9gid4w" base_ExecutionEnvironment="__t8NgC5rEemEOvrx9gid4w"/>
+  <mdcms:MySQL xmi:id="_AozTQC5sEemEOvrx9gid4w" base_ExecutionEnvironment="__t8NgC5rEemEOvrx9gid4w" RootPassword="new_password"/>
+  <mdcms:Logical xmi:id="_C8vr0S5sEemEOvrx9gid4w" base_ExecutionEnvironment="_C8vr0C5sEemEOvrx9gid4w"/>
+  <mdcms:MySQL xmi:id="_DwnYwC5sEemEOvrx9gid4w" base_ExecutionEnvironment="_C8vr0C5sEemEOvrx9gid4w" PackageName="Percona-Server-server-57"/>
+  <mdcms:Logical xmi:id="_AC5pgS5vEemEOvrx9gid4w" base_ExecutionEnvironment="_AC5pgC5vEemEOvrx9gid4w"/>
+  <mdcms:OperatingSystem xmi:id="_CwqQQC5vEemEOvrx9gid4w" base_ExecutionEnvironment="_AC5pgC5vEemEOvrx9gid4w"/>
+  <mdcms:Logical xmi:id="_NW2y4C5vEemEOvrx9gid4w" base_ExecutionEnvironment="_NW2L0C5vEemEOvrx9gid4w"/>
+  <mdcms:OperatingSystem xmi:id="_iAFgsC5vEemEOvrx9gid4w" base_ExecutionEnvironment="_NW2L0C5vEemEOvrx9gid4w" Distribution="Red Hat Enterprise Linux" Version="4.0" Architecture="x64"/>
+  <mdcms:OperatingSystem xmi:id="_4DnFcC5zEemEOvrx9gid4w" base_ExecutionEnvironment="_bXiq8C5lEemEOvrx9gid4w" Distribution="Windows 10" Version="1803" Architecture="x64"/>
+  <mdcms:OperatingSystem xmi:id="_4ysZAC5zEemEOvrx9gid4w" base_ExecutionEnvironment="_QbbQwC5nEemEOvrx9gid4w" Distribution="Windows 10" Version="1803" Architecture="x64"/>
+  <mdcms:Switch xmi:id="_h8NaUC9AEemEpug_OjnDBw" base_Device="__z1xIC1uEemUcNdFkzOxjw" Location="Room 001" Manufacturer="Cisco" Model="Catalyst 9300" Throughput="77.3 Mpps" Ports="48" Speed="10 Gbps" PowerW="60w"/>
+  <mdcms:Router xmi:id="_Pju8QC9CEemEpug_OjnDBw" base_Device="_-a3MAC1uEemUcNdFkzOxjw" Location="Room 001" IP="192.1.2.1" Manufacturer="Cisco" Model="ISR 4221" Throughput="10 Gbps" ServiceModuleSlots="3"/>
+  <mdcms:Configuration xmi:id="_FkReoEkOEemwW7JQ_lCpNw" base_Artifact="_FhOxsEkOEemwW7JQ_lCpNw"/>
+  <mdcms:PSQLDB xmi:id="_K6A0QEkOEemwW7JQ_lCpNw" base_Artifact="_FhOxsEkOEemwW7JQ_lCpNw" Name="PCUnix2DB" User="myuser" Password="mypass" Host="localhost"/>
+  <mdcms:Configuration xmi:id="_OQXFAUkOEemwW7JQ_lCpNw" base_Artifact="_OQXFAEkOEemwW7JQ_lCpNw"/>
+  <mdcms:MySQLDB xmi:id="_P-JcgEkOEemwW7JQ_lCpNw" base_Artifact="_OQXFAEkOEemwW7JQ_lCpNw" Name="Win2DB" User="Administrator" Password="password" Host="localhost"/>
+  <mdcms:Configuration xmi:id="_eRx6MUkOEemwW7JQ_lCpNw" base_Artifact="_eRx6MEkOEemwW7JQ_lCpNw"/>
+  <mdcms:ApacheVhost xmi:id="_fT8h0EkOEemwW7JQ_lCpNw" base_Artifact="_eRx6MEkOEemwW7JQ_lCpNw" VhostName="server1.example.com" Port="80" Docroot="/var/www/user" DocrootOwner="www-data" DocrootGroup="www-data" SSL="true"/>
+  <mdcms:Configuration xmi:id="_i3zDEUkOEemwW7JQ_lCpNw" base_Artifact="_i3zDEEkOEemwW7JQ_lCpNw"/>
+  <mdcms:PSQLDB xmi:id="_kyNhUEkOEemwW7JQ_lCpNw" base_Artifact="_i3zDEEkOEemwW7JQ_lCpNw" Name="developmentDB" User="user" Password="password" Host="localhost" Port="5432" Owner="user"/>
+  <mdcms:Configuration xmi:id="_ntauMEkOEemwW7JQ_lCpNw" base_Artifact="_ntaHIEkOEemwW7JQ_lCpNw"/>
+  <mdcms:MySQLDB xmi:id="_ozuO8EkOEemwW7JQ_lCpNw" base_Artifact="_ntaHIEkOEemwW7JQ_lCpNw" Name="developmentDB" User="user" Password="password" Host="localhost" Port="3306"/>
+  <mdcms:Configuration xmi:id="_qvFIYUkOEemwW7JQ_lCpNw" base_Artifact="_qvFIYEkOEemwW7JQ_lCpNw"/>
+  <mdcms:Configuration xmi:id="_yrXpgUkOEemwW7JQ_lCpNw" base_Artifact="_yrXpgEkOEemwW7JQ_lCpNw"/>
+  <mdcms:JavaOracle xmi:id="_1HcqYEkOEemwW7JQ_lCpNw" base_Artifact="_yrXpgEkOEemwW7JQ_lCpNw" VersionMajor="8u101" VersionMinor="b13" JavaSE="jdk"/>
+  <mdcms:Configuration xmi:id="_1us3oUkOEemwW7JQ_lCpNw" base_Artifact="_1us3oEkOEemwW7JQ_lCpNw"/>
+  <mdcms:FirewallRule xmi:id="_2qg_oEkOEemwW7JQ_lCpNw" base_Artifact="_1us3oEkOEemwW7JQ_lCpNw" Name="000 accept all icmp" Action="accept" Protocol="icmp"/>
+  <mdcms:Configuration xmi:id="_3OfPYEkOEemwW7JQ_lCpNw" base_Artifact="_3OeoUEkOEemwW7JQ_lCpNw"/>
+  <mdcms:PSQLDB xmi:id="_5Je8cEkOEemwW7JQ_lCpNw" base_Artifact="_3OeoUEkOEemwW7JQ_lCpNw" Name="server2_production" User="admin" Password="password" Host="localhost" Owner="Server2"/>
+  <mdcms:Configuration xmi:id="_7Vdr0EkOEemwW7JQ_lCpNw" base_Artifact="_7VdEwEkOEemwW7JQ_lCpNw"/>
+  <mdcms:ApacheVhost xmi:id="_8jxSAEkOEemwW7JQ_lCpNw" base_Artifact="_7VdEwEkOEemwW7JQ_lCpNw" VhostName="server3.example.com non-ssl" ServerName="server3.example.com" Port="80" Docroot="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs"/>
+  <mdcms:Configuration xmi:id="_88Z0cUkOEemwW7JQ_lCpNw" base_Artifact="_88Z0cEkOEemwW7JQ_lCpNw"/>
+  <mdcms:MySQLDB xmi:id="_-Q-asEkOEemwW7JQ_lCpNw" base_Artifact="_88Z0cEkOEemwW7JQ_lCpNw" Name="S3_production" User="dbuser" Password="password" Host="localhost"/>
+  <mdcms:TomcatApp xmi:id="_X1EgMEk0EemwW7JQ_lCpNw" base_Artifact="_qvFIYEkOEemwW7JQ_lCpNw" CatalinaHome="/opt/tomcat9" CatalinaBase="/opt/tomcat9/first" Port="8081" AdditionalAttributes="{ 'redirectPort' => '8443' }"/>
+  <mdcms:Configuration xmi:id="_jf6WsUk0EemwW7JQ_lCpNw" base_Artifact="_jf6WsEk0EemwW7JQ_lCpNw"/>
+  <mdcms:RegistryEntry xmi:id="_kyjDQEk0EemwW7JQ_lCpNw" base_Artifact="_jf6WsEk0EemwW7JQ_lCpNw" Path="HKLM\System\CurrentControlSet\Services\Puppet\Description" Ensure="present" Type="string" Data="The Puppet Agent service periodically manages your configuration"/>
+  <mdcms:Configuration xmi:id="_SmJWYEq3EemHX5MUfEzgAQ" base_Artifact="_SmG6IEq3EemHX5MUfEzgAQ"/>
+  <mdcms:File xmi:id="_aBu-MEq3EemHX5MUfEzgAQ" base_Artifact="_SmG6IEq3EemHX5MUfEzgAQ" Path="/etc/resolv.conf" Ensure="present"/>
+  <mdcms:Configuration xmi:id="_UGKZ0UrGEemHX5MUfEzgAQ" base_Artifact="_UGKZ0ErGEemHX5MUfEzgAQ"/>
+  <mdcms:FirewallRule xmi:id="_VVCnwErGEemHX5MUfEzgAQ" base_Artifact="_UGKZ0ErGEemHX5MUfEzgAQ" Name="002 reject local traffic not on loopback interface" Action="reject" Protocol="all" DestinationRange="127.0.0.1/8" InputInterface="! lo"/>
+</xmi:XMI>
