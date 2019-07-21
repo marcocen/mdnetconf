@@ -1,4 +1,4 @@
-# A model-driven approach for system administration
+# Model-driven network configuration (MDNetConf)
 
 Authors:
 - Marco Centurion
