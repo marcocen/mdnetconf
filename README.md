@@ -1,8 +1,10 @@
-# Model-driven configuration of computer networks
+# A model-driven approach for system administration
 
 Authors:
 - Marco Centurion
 - Maximiliano Kotvinsky
+- Daniel Calegari
+- Andrea Delgado
 
 ## Documentation
 The installation manual and usage guide of the generated plug-ins can be found in the directory [Manuals](/Manuals):
